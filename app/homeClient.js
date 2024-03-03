@@ -1034,7 +1034,9 @@ export default function HomeClient({ Apikey }) {
                               } 
                              `}
                             >
-                              {item.ability_value}
+                              {item.ability_value.includes("패시브 스킬 레벨이")
+                                ? item.ability_value.slice(0, 15)
+                                : item.ability_value}
                             </div>
                           )
                         )
@@ -1053,7 +1055,9 @@ export default function HomeClient({ Apikey }) {
                                   : "bg-blue-500"
                               } `}
                             >
-                              {item.ability_value}
+                              {item.ability_value.includes("패시브 스킬 레벨이")
+                                ? item.ability_value.slice(0, 15)
+                                : item.ability_value}
                             </div>
                           )
                         )
@@ -1072,7 +1076,9 @@ export default function HomeClient({ Apikey }) {
                                   : "bg-blue-500"
                               }`}
                             >
-                              {item.ability_value}
+                              {item.ability_value.includes("패시브 스킬 레벨이")
+                                ? item.ability_value.slice(0, 15)
+                                : item.ability_value}
                             </div>
                           )
                         )
