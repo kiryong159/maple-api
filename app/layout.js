@@ -25,10 +25,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={myFont.className}>
-        <RecoilRootComponent>{children}</RecoilRootComponent>
-      </body>
+    <html lang="en" className={myFont.className}>
+      <RecoilRootComponent>{children}</RecoilRootComponent>
     </html>
   );
 }

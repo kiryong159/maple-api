@@ -10,7 +10,7 @@ export default function BottomEquipView({
   const [equipNumAtom, setEquipNumAtom] = useRecoilState(EquipAtom);
 
   return (
-    <div className="w-full h-[400px] grid grid-cols-5 gap-2 grid-rows-6 my-3 p-1">
+    <div className="w-full h-[400px] lg:h-[500px] grid grid-cols-5 gap-2 grid-rows-6 my-3 p-1 ">
       <EquipBox equipData={equipPresetData[11]} equipNum="11" />
       <div></div>
       <EquipBox equipData={equipPresetData[0]} equipNum="0" />
@@ -41,7 +41,7 @@ export default function BottomEquipView({
       ) : (
         <div
           onClick={() => setEquipNumAtom("칭호")}
-          className={`flex border-[1px] rounded-md shadow-sm items-center justify-center  hover:cursor-pointer border-gray-300}`}
+          className={`flex border-[2px] rounded-md shadow-md items-center justify-center  hover:cursor-pointer border-gray-400`}
         >
           <img src={titleData.title_icon} />
         </div>
@@ -53,7 +53,7 @@ export default function BottomEquipView({
       ) : (
         <div
           onClick={() => setEquipNumAtom("안드")}
-          className="flex border-[1px] rounded-md shadow-sm items-center justify-center  hover:cursor-pointer border-gray-300"
+          className="flex border-[2px] rounded-md shadow-md items-center justify-center  hover:cursor-pointer border-gray-400"
         >
           <img src={androidData.android_icon} />
         </div>

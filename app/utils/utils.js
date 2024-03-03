@@ -293,3 +293,126 @@ export function SymbolStatPlus(SYMData, character_class) {
     return LUK;
   }
 }
+
+export function DayCalc(year, month, days, prevLastDay) {
+  return days > 0
+    ? `${year}-${String(month).padStart(2, "0")}-${String(days).padStart(
+        2,
+        "0"
+      )}`
+    : days === 0
+    ? month === 1
+      ? `${year - 1}-${String(month + 11).padStart(2, "0")}-${String(
+          prevLastDay
+        ).padStart(2, "0")}`
+      : `${year}-${String(month - 1).padStart(2, "0")}-${String(
+          prevLastDay
+        ).padStart(2, "0")}`
+    : days < 0
+    ? month === 1
+      ? `${year - 1}-${String(month + 11).padStart(2, "0")}-${String(
+          prevLastDay + days
+        ).padStart(2, "0")}`
+      : `${year}-${String(month - 1).padStart(2, "0")}-${String(
+          prevLastDay + days
+        ).padStart(2, "0")}`
+    : `${year}-${String(month).padStart(2, "0")}-${String(days).padStart(
+        2,
+        "0"
+      )}`;
+}
+
+export function powerChanger(power) {
+  if (power.length <= 4) {
+    return power;
+  }
+  if (power.length === 5) {
+    const change = `${power.slice(0, 1)}만 ${power.slice(1)} `;
+    return change;
+  }
+  if (power.length === 6) {
+    const change = `${power.slice(0, 2)}만 ${power.slice(2)} `;
+    return change;
+  }
+  if (power.length === 7) {
+    const change = `${power.slice(0, 3)}만 ${power.slice(3)} `;
+    return change;
+  }
+
+  if (power.length === 8) {
+    const change = `${power.slice(0, 4)}만 ${power.slice(4)} `;
+    return change;
+  }
+  if (power.length === 9) {
+    const change = `${power.slice(0, 1)}억 ${power.slice(1, 5)}만 ${power.slice(
+      5
+    )} `;
+    return change;
+  }
+  if (power.length === 10) {
+    const change = `${power.slice(0, 2)}억 ${power.slice(2, 6)}만 ${power.slice(
+      6
+    )} `;
+    return change;
+  }
+}
+
+export function equipArrChanger(item) {
+  if (item === undefined) return;
+  const d = item;
+  const 모자 = d.find((item) => item.item_equipment_slot === "모자");
+  const 눈장식 = d.find((item) => item.item_equipment_slot === "눈장식");
+  const 상의 = d.find((item) => item.item_equipment_slot === "상의");
+  const 하의 = d.find((item) => item.item_equipment_slot === "하의");
+  const 신발 = d.find((item) => item.item_equipment_slot === "신발");
+  const 장갑 = d.find((item) => item.item_equipment_slot === "장갑");
+  const 망토 = d.find((item) => item.item_equipment_slot === "망토");
+  const 보조무기 = d.find((item) => item.item_equipment_slot === "보조무기");
+  const 무기 = d.find((item) => item.item_equipment_slot === "무기");
+  const 반지2 = d.find((item) => item.item_equipment_slot === "반지2");
+  const 반지3 = d.find((item) => item.item_equipment_slot === "반지3");
+  const 반지4 = d.find((item) => item.item_equipment_slot === "반지4");
+  const 벨트 = d.find((item) => item.item_equipment_slot === "벨트");
+  const 어깨장식 = d.find((item) => item.item_equipment_slot === "어깨장식");
+  const 포켓 = d.find((item) => item.item_equipment_slot === "포켓 아이템");
+  const 심장 = d.find((item) => item.item_equipment_slot === "기계 심장");
+  const 뱃지 = d.find((item) => item.item_equipment_slot === "뱃지");
+  const 엠블렘 = d.find((item) => item.item_equipment_slot === "엠블렘");
+  const 얼굴장식 = d.find((item) => item.item_equipment_slot === "얼굴장식");
+  const 귀고리 = d.find((item) => item.item_equipment_slot === "귀고리");
+  const 반지1 = d.find((item) => item.item_equipment_slot === "반지1");
+  const 펜던트 = d.find((item) => item.item_equipment_slot === "펜던트");
+  const 훈장 = d.find((item) => item.item_equipment_slot === "훈장");
+  const 펜던트2 = d.find((item) => item.item_equipment_slot === "펜던트2");
+
+  let newArr = [
+    모자,
+    눈장식,
+    상의,
+    하의,
+    신발,
+    장갑,
+    망토,
+    보조무기,
+    무기,
+    반지2,
+    반지3,
+    반지4,
+    벨트,
+    어깨장식,
+    포켓,
+    심장,
+    뱃지,
+    엠블렘,
+    얼굴장식,
+    귀고리,
+    반지1,
+    펜던트,
+    훈장,
+    펜던트2,
+  ];
+
+  const filterArr = newArr.filter((item) => item === undefined);
+  newArr = filterArr.length === 24 ? [] : newArr;
+  return newArr;
+}

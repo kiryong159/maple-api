@@ -2,10 +2,10 @@
 
 export const baseData = {
   date: "2024-02-04T00:00+09:00",
-  character_name: "맛쪼니",
+  character_name: "맛쪼니니니니",
   world_name: "루나",
   character_gender: "여",
-  character_class: "신궁",
+  character_class: "아크메이지(불,독)",
   character_class_level: "6",
   character_level: 279,
   character_exp: 7600278931856,
@@ -15,9 +15,16 @@ export const baseData = {
     "https://open.api.nexon.com/static/maplestory/Character/PDFCILBKGBCINBMOADAOPLMHHMEMMMKHAPIAJECMCOHCEAPMPFJEDDOPCOCGBBMDOJKMJCDCOEFCBJJHAMEPEEAKLLHLDOAKBAHEEPBMKFAJIAIPPPMDBJKGCLHNEFHNHENLPMMLNCKAOOEPHGKFDDLBNJBIDKINOBINOJEGIPLCHNEHFOGFBHMAEBJCGEOANOJPDJPDMNIAMFMCIDNOPPOILBGEEAGHFFOBFGDPFBIPGMADAKFKEJAODFCKHDCK.png",
 };
 
+export const baseData2 = {
+  error: {
+    name: "OPENAPI00003",
+    message: "Please input valid id",
+  },
+};
+
 export const ocid = "07ef6fbb10a2d4968e03ab9abf86ff4b";
 let 아델 = "e0a4f439e53c369866b55297d2f5f4eb";
-let 삐빅오륩니다 = "3610f0bfa3eb4a554564cb960da291fb";
+let 에반 = "3610f0bfa3eb4a554564cb960da291fb";
 let 도적 = "30ae5be8a9f2c9119f6cad798fffc391";
 let 창섭 = "80645f5a589f628b400b0ca17ae7918eefe8d04e6d233bd35cf2fabdeb93fb0d";
 let 슈피겔만 =
@@ -27,6 +34,2072 @@ let 썬콜 = "6e2da9f6be50114cde30b878975f1102";
 let 불독 = "b41546f8dfb6267651817cd1792c85c8efe8d04e6d233bd35cf2fabdeb93fb0d";
 let 팬텀 = "598f53182d234b3b2f14c35eb39bfcfb";
 let 캐슈 = "46242ca5c9d329a50d72081dd85550fa";
+let 어서 = "82e3a55a3ef7c0453e0939356660525a";
+let 히솝 = "f41538f9d3c80f42fb58f141dc47717c";
+let 창스웡키 =
+  "366fa4868be511919b23f734b9bac964efe8d04e6d233bd35cf2fabdeb93fb0d";
+export const baseWeekData = [
+  {
+    date: "2024-02-20T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 8084715994197,
+    character_exp_rate: "24.028",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-19T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 7129185324019,
+    character_exp_rate: "21.188",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-18T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 6185364651700,
+    character_exp_rate: "18.383",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-17T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 4357762753037,
+    character_exp_rate: "12.951",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-16T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 3290470222591,
+    character_exp_rate: "9.779",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-15T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 2319794005637,
+    character_exp_rate: "6.894",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+  {
+    date: "2024-02-14T00:00+09:00",
+    character_name: "맛쪼니",
+    world_name: "루나",
+    character_gender: "여",
+    character_class: "신궁",
+    character_class_level: "6",
+    character_level: 280,
+    character_exp: 1434085368157,
+    character_exp_rate: "4.262",
+    character_guild_name: "그거",
+    character_image:
+      "https://open.api.nexon.com/static/maplestory/Character/PEHNBHFJNDFPPMBLOFHFNOBFOODLHKHBCOJIAECFFKLALJGGJBBCJLHFJFHJDMBPCKOCPKEAAMDKJNDLEBOAHCIIPKHFLJHJGCBHONJMFNMNGIGACPNIJIBMCJODNFNLOMBEIMFBCBJKJOMGDOPCENALNBLBAOANMMMKBNPOOPPKACFOHPFFPLIEIMACLNMBEOODOJDLDPMDDBFGELLIBJNNBGCLFECNEPLIBNAJGPOMJMOALPLCMFBGEFCOLNGD.png",
+  },
+];
+
+export const unionWeekData = [
+  {
+    date: "2024-02-20T00:00+09:00",
+    union_level: 8739,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 7054,
+    union_artifact_point: 14000,
+    artifact_level: 35,
+    artifact_exp: 7054,
+    artifact_point: 14000,
+  },
+  {
+    date: "2024-02-19T00:00+09:00",
+    union_level: 8739,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 7054,
+    union_artifact_point: 14000,
+    artifact_level: 35,
+    artifact_exp: 7054,
+    artifact_point: 14000,
+  },
+  {
+    date: "2024-02-18T00:00+09:00",
+    union_level: 8739,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 6954,
+    union_artifact_point: 14000,
+    artifact_level: 35,
+    artifact_exp: 6954,
+    artifact_point: 14000,
+  },
+  {
+    date: "2024-02-17T00:00+09:00",
+    union_level: 8739,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 4454,
+    union_artifact_point: 12980,
+    artifact_level: 35,
+    artifact_exp: 4454,
+    artifact_point: 12980,
+  },
+  {
+    date: "2024-02-16T00:00+09:00",
+    union_level: 8734,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 4154,
+    union_artifact_point: 14000,
+    artifact_level: 35,
+    artifact_exp: 4154,
+    artifact_point: 14000,
+  },
+  {
+    date: "2024-02-15T00:00+09:00",
+    union_level: 8734,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 3354,
+    union_artifact_point: 13420,
+    artifact_level: 35,
+    artifact_exp: 3354,
+    artifact_point: 13420,
+  },
+  {
+    date: "2024-02-14T00:00+09:00",
+    union_level: 8734,
+    union_grade: "그랜드 마스터 유니온 2",
+    union_artifact_level: 35,
+    union_artifact_exp: 2454,
+    union_artifact_point: 12520,
+    artifact_level: 35,
+    artifact_exp: 2454,
+    artifact_point: 12520,
+  },
+];
+export const popWeekData = [
+  {
+    date: "2024-02-21T00:00+09:00",
+    popularity: 5430,
+  },
+  {
+    date: "2024-02-20T00:00+09:00",
+    popularity: 5420,
+  },
+  {
+    date: "2024-02-19T00:00+09:00",
+    popularity: 5415,
+  },
+  {
+    date: "2024-02-18T00:00+09:00",
+    popularity: 5410,
+  },
+  {
+    date: "2024-02-17T00:00+09:00",
+    popularity: 5400,
+  },
+  {
+    date: "2024-02-16T00:00+09:00",
+    popularity: 5399,
+  },
+  {
+    date: "2024-02-15T00:00+09:00",
+    popularity: 5397,
+  },
+];
+
+export const artifactData = {
+  date: "2024-02-16T00:00+09:00",
+  union_artifact_effect: [
+    {
+      name: "올스탯 150 증가",
+      level: 10,
+    },
+    {
+      name: "공격력 30, 마력 30 증가",
+      level: 10,
+    },
+    {
+      name: "데미지 15.00% 증가",
+      level: 10,
+    },
+    {
+      name: "보스 몬스터 공격 시 데미지 7.50% 증가",
+      level: 10,
+    },
+    {
+      name: "몬스터 방어율 무시 20% 증가",
+      level: 10,
+    },
+    {
+      name: "버프 지속시간 4% 증가",
+      level: 2,
+    },
+    {
+      name: "재사용 대기시간 미적용 확률 1.50% 증가",
+      level: 2,
+    },
+    {
+      name: "메소 획득량 12% 증가",
+      level: 10,
+    },
+    {
+      name: "아이템 드롭률 12% 증가",
+      level: 10,
+    },
+    {
+      name: "크리티컬 확률 4% 증가",
+      level: 2,
+    },
+    {
+      name: "파이널 어택류 스킬의 데미지 3% 증가",
+      level: 10,
+    },
+    {
+      name: "추가 경험치 획득 8% 증가, 다수 공격 스킬의 최대 공격 가능 대상 수 1 증가",
+      level: 10,
+    },
+  ],
+  union_artifact_crystal: [
+    {
+      name: "크리스탈 : 주황버섯",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "아이템 드롭률 증가",
+      crystal_option_name_2: "메소 획득량 증가",
+      crystal_option_name_3: "추가 경험치 획득 증가",
+    },
+    {
+      name: "크리스탈 : 슬라임",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "아이템 드롭률 증가",
+      crystal_option_name_2: "메소 획득량 증가",
+      crystal_option_name_3: "추가 경험치 획득 증가",
+    },
+    {
+      name: "크리스탈 : 뿔버섯",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "보스 몬스터 공격 시 데미지 증가",
+      crystal_option_name_2: "크리티컬 데미지 증가",
+      crystal_option_name_3: "데미지 증가",
+    },
+    {
+      name: "크리스탈 : 스텀프",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "보스 몬스터 공격 시 데미지 증가",
+      crystal_option_name_2: "크리티컬 데미지 증가",
+      crystal_option_name_3: "데미지 증가",
+    },
+    {
+      name: "크리스탈 : 스톤골렘",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "몬스터 방어율 무시 증가",
+      crystal_option_name_2: "올스탯 증가",
+      crystal_option_name_3: "공격력/마력 증가",
+    },
+    {
+      name: "크리스탈 : 발록",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 5,
+      crystal_option_name_1: "몬스터 방어율 무시 증가",
+      crystal_option_name_2: "올스탯 증가",
+      crystal_option_name_3: "공격력/마력 증가",
+    },
+    {
+      name: "크리스탈 : 자쿰",
+      validity_flag: "0",
+      date_expire: "2024-02-20T16:19+09:00",
+      level: 2,
+      crystal_option_name_1: "버프 지속시간 증가",
+      crystal_option_name_2: "재사용 대기시간 미적용 확률 증가",
+      crystal_option_name_3: "크리티컬 확률 증가",
+    },
+  ],
+  union_artifact_remain_ap: 0,
+};
+
+export const unionData = {
+  date: "2024-02-12T00:00+09:00",
+  union_level: 8733,
+  union_grade: "그랜드 마스터 유니온 2",
+  artifact_level: 35,
+  artifact_exp: 1954,
+  artifact_point: 12520,
+};
+
+export const unionRaiderData = {
+  date: "2024-02-14T00:00+09:00",
+  union_raider_stat: [
+    "INT 80 증가",
+    "보스 몬스터 공격 시 데미지 6% 증가",
+    "최대 HP 5% 증가",
+    "INT 80 증가",
+    "소환수 지속시간 10% 증가",
+    "STR 80 증가",
+    "INT 80 증가",
+    "크리티컬 확률 4% 증가",
+    "적 공격마다 70%의 확률로 순수 HP의 8% 회복",
+    "공격 시 20%의 확률로 데미지 20% 증가",
+    "STR 80 증가",
+    "크리티컬 데미지 6% 증가",
+    "DEX 80 증가",
+    "경험치 획득량 10% 증가",
+    "DEX 80 증가",
+    "최대 HP 2000 증가",
+    "STR 80 증가",
+    "상태 이상 내성 4 증가",
+    "INT 80 증가",
+    "STR 80 증가",
+    "STR, DEX, LUK 40 증가",
+    "최대 HP 2000 증가",
+    "INT 80 증가",
+    "STR 100 증가",
+    "STR 100 증가",
+    "STR 100 증가",
+    "LUK 80 증가",
+    "공격력/마력 20 증가",
+    "LUK 80 증가",
+    "DEX 80 증가",
+    "크리티컬 확률 4% 증가",
+    "STR 80 증가",
+    "버프 지속시간 25% 증가",
+    "방어율 무시 6% 증가",
+    "DEX 80 증가",
+    "메소 획득량 4% 증가",
+    "스킬 재사용 대기시간 6% 감소",
+    "DEX 80 증가",
+    "LUK 80 증가",
+  ],
+  union_occupied_stat: [
+    "STR 70 증가",
+    "크리티컬 데미지 20.00% 증가",
+    "크리티컬 확률 20% 증가",
+    "방어율 무시 40% 증가",
+    "최대 MP 250 증가",
+    "공격력 9 증가",
+    "보스 몬스터 공격 시 데미지 40% 증가",
+    "마력 1 증가",
+  ],
+  union_block: [
+    {
+      block_type: "마법사",
+      block_class: "배틀메이지",
+      block_level: "218",
+      block_control_point: {
+        x: 8,
+        y: -2,
+      },
+      block_position: [
+        {
+          x: 8,
+          y: -1,
+        },
+        {
+          x: 9,
+          y: -2,
+        },
+        {
+          x: 7,
+          y: -2,
+        },
+        {
+          x: 8,
+          y: -2,
+        },
+      ],
+    },
+    {
+      block_type: "마법사",
+      block_class: "키네시스",
+      block_level: "200",
+      block_control_point: {
+        x: -8,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: -8,
+          y: -1,
+        },
+        {
+          x: -9,
+          y: 0,
+        },
+        {
+          x: -7,
+          y: 0,
+        },
+        {
+          x: -8,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "마법사",
+      block_class: "플레임위자드",
+      block_level: "210",
+      block_control_point: {
+        x: -7,
+        y: -4,
+      },
+      block_position: [
+        {
+          x: -8,
+          y: -4,
+        },
+        {
+          x: -7,
+          y: -5,
+        },
+        {
+          x: -7,
+          y: -3,
+        },
+        {
+          x: -7,
+          y: -4,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "신궁",
+      block_level: "220",
+      block_control_point: {
+        x: 10,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: 10,
+          y: -2,
+        },
+        {
+          x: 10,
+          y: 1,
+        },
+        {
+          x: 10,
+          y: -1,
+        },
+        {
+          x: 10,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "아란",
+      block_level: "210",
+      block_control_point: {
+        x: -9,
+        y: -5,
+      },
+      block_position: [
+        {
+          x: -8,
+          y: -6,
+        },
+        {
+          x: -9,
+          y: -6,
+        },
+        {
+          x: -8,
+          y: -5,
+        },
+        {
+          x: -9,
+          y: -5,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "캡틴",
+      block_level: "200",
+      block_control_point: {
+        x: 7,
+        y: -6,
+      },
+      block_position: [
+        {
+          x: 8,
+          y: -7,
+        },
+        {
+          x: 7,
+          y: -5,
+        },
+        {
+          x: 8,
+          y: -6,
+        },
+        {
+          x: 7,
+          y: -6,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "와일드헌터",
+      block_level: "250",
+      block_control_point: {
+        x: 10,
+        y: -5,
+      },
+      block_position: [
+        {
+          x: 10,
+          y: -7,
+        },
+        {
+          x: 10,
+          y: -3,
+        },
+        {
+          x: 10,
+          y: -6,
+        },
+        {
+          x: 10,
+          y: -4,
+        },
+        {
+          x: 10,
+          y: -5,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "다크나이트",
+      block_level: "219",
+      block_control_point: {
+        x: -11,
+        y: -2,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: -3,
+        },
+        {
+          x: -11,
+          y: -3,
+        },
+        {
+          x: -10,
+          y: -2,
+        },
+        {
+          x: -11,
+          y: -2,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "스트라이커",
+      block_level: "210",
+      block_control_point: {
+        x: -9,
+        y: 7,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 8,
+        },
+        {
+          x: -8,
+          y: 7,
+        },
+        {
+          x: -9,
+          y: 8,
+        },
+        {
+          x: -9,
+          y: 7,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "은월",
+      block_level: "250",
+      block_control_point: {
+        x: 8,
+        y: 3,
+      },
+      block_position: [
+        {
+          x: 9,
+          y: 5,
+        },
+        {
+          x: 9,
+          y: 4,
+        },
+        {
+          x: 8,
+          y: 2,
+        },
+        {
+          x: 9,
+          y: 3,
+        },
+        {
+          x: 8,
+          y: 3,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "팔라딘",
+      block_level: "218",
+      block_control_point: {
+        x: -11,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: -1,
+        },
+        {
+          x: -11,
+          y: -1,
+        },
+        {
+          x: -10,
+          y: 0,
+        },
+        {
+          x: -11,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "제로",
+      block_level: "217",
+      block_control_point: {
+        x: 8,
+        y: -4,
+      },
+      block_position: [
+        {
+          x: 9,
+          y: -5,
+        },
+        {
+          x: 8,
+          y: -5,
+        },
+        {
+          x: 9,
+          y: -4,
+        },
+        {
+          x: 8,
+          y: -4,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "엔젤릭버스터",
+      block_level: "200",
+      block_control_point: {
+        x: -10,
+        y: -7,
+      },
+      block_position: [
+        {
+          x: -11,
+          y: -6,
+        },
+        {
+          x: -9,
+          y: -7,
+        },
+        {
+          x: -10,
+          y: -6,
+        },
+        {
+          x: -10,
+          y: -7,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "미하일",
+      block_level: "200",
+      block_control_point: {
+        x: -7,
+        y: 4,
+      },
+      block_position: [
+        {
+          x: -8,
+          y: 3,
+        },
+        {
+          x: -8,
+          y: 4,
+        },
+        {
+          x: -7,
+          y: 3,
+        },
+        {
+          x: -7,
+          y: 4,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "바이퍼",
+      block_level: "200",
+      block_control_point: {
+        x: 8,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: 9,
+          y: -1,
+        },
+        {
+          x: 8,
+          y: 1,
+        },
+        {
+          x: 9,
+          y: 0,
+        },
+        {
+          x: 8,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "데몬슬레이어",
+      block_level: "200",
+      block_control_point: {
+        x: -8,
+        y: 2,
+      },
+      block_position: [
+        {
+          x: -7,
+          y: 1,
+        },
+        {
+          x: -8,
+          y: 1,
+        },
+        {
+          x: -7,
+          y: 2,
+        },
+        {
+          x: -8,
+          y: 2,
+        },
+      ],
+    },
+    {
+      block_type: "마법사",
+      block_class: "비숍",
+      block_level: "204",
+      block_control_point: {
+        x: -11,
+        y: -8,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: -8,
+        },
+        {
+          x: -11,
+          y: -9,
+        },
+        {
+          x: -11,
+          y: -7,
+        },
+        {
+          x: -11,
+          y: -8,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "카이저",
+      block_level: "236",
+      block_control_point: {
+        x: -11,
+        y: -4,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: -5,
+        },
+        {
+          x: -11,
+          y: -5,
+        },
+        {
+          x: -10,
+          y: -4,
+        },
+        {
+          x: -11,
+          y: -4,
+        },
+      ],
+    },
+    {
+      block_type: "하이브리드",
+      block_class: "제논",
+      block_level: "210",
+      block_control_point: {
+        x: -11,
+        y: 6,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 5,
+        },
+        {
+          x: -11,
+          y: 7,
+        },
+        {
+          x: -11,
+          y: 5,
+        },
+        {
+          x: -11,
+          y: 6,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "소울마스터",
+      block_level: "212",
+      block_control_point: {
+        x: -11,
+        y: 4,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 3,
+        },
+        {
+          x: -11,
+          y: 3,
+        },
+        {
+          x: -10,
+          y: 4,
+        },
+        {
+          x: -11,
+          y: 4,
+        },
+      ],
+    },
+    {
+      block_type: "마법사",
+      block_class: "루미너스",
+      block_level: "200",
+      block_control_point: {
+        x: -11,
+        y: 9,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 9,
+        },
+        {
+          x: -11,
+          y: 10,
+        },
+        {
+          x: -11,
+          y: 8,
+        },
+        {
+          x: -11,
+          y: 9,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "히어로",
+      block_level: "250",
+      block_control_point: {
+        x: 7,
+        y: 4,
+      },
+      block_position: [
+        {
+          x: 7,
+          y: 6,
+        },
+        {
+          x: 8,
+          y: 5,
+        },
+        {
+          x: 8,
+          y: 4,
+        },
+        {
+          x: 7,
+          y: 5,
+        },
+        {
+          x: 7,
+          y: 4,
+        },
+      ],
+    },
+    {
+      block_type: "도적",
+      block_class: "카데나",
+      block_level: "200",
+      block_control_point: {
+        x: -10,
+        y: 1,
+      },
+      block_position: [
+        {
+          x: -11,
+          y: 2,
+        },
+        {
+          x: -9,
+          y: 1,
+        },
+        {
+          x: -11,
+          y: 1,
+        },
+        {
+          x: -10,
+          y: 1,
+        },
+      ],
+    },
+    {
+      block_type: "메이플 M 캐릭터",
+      block_class: "모바일 캐릭터",
+      block_level: "120",
+      block_control_point: {
+        x: -5,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: -3,
+          y: 0,
+        },
+        {
+          x: -6,
+          y: 0,
+        },
+        {
+          x: -4,
+          y: 0,
+        },
+        {
+          x: -5,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "패스파인더",
+      block_level: "200",
+      block_control_point: {
+        x: 4,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: 6,
+          y: 0,
+        },
+        {
+          x: 3,
+          y: 0,
+        },
+        {
+          x: 5,
+          y: 0,
+        },
+        {
+          x: 4,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "도적",
+      block_class: "호영",
+      block_level: "200",
+      block_control_point: {
+        x: -9,
+        y: 3,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 2,
+        },
+        {
+          x: -9,
+          y: 4,
+        },
+        {
+          x: -9,
+          y: 2,
+        },
+        {
+          x: -9,
+          y: 3,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "아델",
+      block_level: "287",
+      block_control_point: {
+        x: 5,
+        y: -1,
+      },
+      block_position: [
+        {
+          x: 7,
+          y: -1,
+        },
+        {
+          x: 6,
+          y: -2,
+        },
+        {
+          x: 5,
+          y: -2,
+        },
+        {
+          x: 6,
+          y: -1,
+        },
+        {
+          x: 5,
+          y: -1,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "보우마스터",
+      block_level: "210",
+      block_control_point: {
+        x: 7,
+        y: 1,
+      },
+      block_position: [
+        {
+          x: 7,
+          y: 3,
+        },
+        {
+          x: 7,
+          y: 0,
+        },
+        {
+          x: 7,
+          y: 2,
+        },
+        {
+          x: 7,
+          y: 1,
+        },
+      ],
+    },
+    {
+      block_type: "도적",
+      block_class: "나이트로드",
+      block_level: "220",
+      block_control_point: {
+        x: -9,
+        y: 6,
+      },
+      block_position: [
+        {
+          x: -10,
+          y: 7,
+        },
+        {
+          x: -8,
+          y: 6,
+        },
+        {
+          x: -10,
+          y: 6,
+        },
+        {
+          x: -9,
+          y: 6,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "메카닉",
+      block_level: "250",
+      block_control_point: {
+        x: 10,
+        y: -8,
+      },
+      block_position: [
+        {
+          x: 9,
+          y: -6,
+        },
+        {
+          x: 9,
+          y: -7,
+        },
+        {
+          x: 10,
+          y: -9,
+        },
+        {
+          x: 9,
+          y: -8,
+        },
+        {
+          x: 10,
+          y: -8,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "캐논마스터",
+      block_level: "211",
+      block_control_point: {
+        x: -8,
+        y: -2,
+      },
+      block_position: [
+        {
+          x: -7,
+          y: -1,
+        },
+        {
+          x: -8,
+          y: -3,
+        },
+        {
+          x: -7,
+          y: -2,
+        },
+        {
+          x: -8,
+          y: -2,
+        },
+      ],
+    },
+    {
+      block_type: "해적",
+      block_class: "아크",
+      block_level: "250",
+      block_control_point: {
+        x: 9,
+        y: 2,
+      },
+      block_position: [
+        {
+          x: 10,
+          y: 4,
+        },
+        {
+          x: 10,
+          y: 3,
+        },
+        {
+          x: 9,
+          y: 1,
+        },
+        {
+          x: 10,
+          y: 2,
+        },
+        {
+          x: 9,
+          y: 2,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "블래스터",
+      block_level: "270",
+      block_control_point: {
+        x: 4,
+        y: -1,
+      },
+      block_position: [
+        {
+          x: 2,
+          y: -1,
+        },
+        {
+          x: 3,
+          y: -2,
+        },
+        {
+          x: 4,
+          y: -2,
+        },
+        {
+          x: 3,
+          y: -1,
+        },
+        {
+          x: 4,
+          y: -1,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "윈드브레이커",
+      block_level: "200",
+      block_control_point: {
+        x: -9,
+        y: -3,
+      },
+      block_position: [
+        {
+          x: -9,
+          y: -1,
+        },
+        {
+          x: -9,
+          y: -4,
+        },
+        {
+          x: -9,
+          y: -2,
+        },
+        {
+          x: -9,
+          y: -3,
+        },
+      ],
+    },
+    {
+      block_type: "전사",
+      block_class: "데몬어벤져",
+      block_level: "276",
+      block_control_point: {
+        x: 6,
+        y: -3,
+      },
+      block_position: [
+        {
+          x: 6,
+          y: -5,
+        },
+        {
+          x: 5,
+          y: -4,
+        },
+        {
+          x: 5,
+          y: -3,
+        },
+        {
+          x: 6,
+          y: -4,
+        },
+        {
+          x: 6,
+          y: -3,
+        },
+      ],
+    },
+    {
+      block_type: "도적",
+      block_class: "팬텀",
+      block_level: "200",
+      block_control_point: {
+        x: 8,
+        y: -3,
+      },
+      block_position: [
+        {
+          x: 7,
+          y: -4,
+        },
+        {
+          x: 9,
+          y: -3,
+        },
+        {
+          x: 7,
+          y: -3,
+        },
+        {
+          x: 8,
+          y: -3,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "메르세데스",
+      block_level: "250",
+      block_control_point: {
+        x: 0,
+        y: 0,
+      },
+      block_position: [
+        {
+          x: -2,
+          y: 0,
+        },
+        {
+          x: 2,
+          y: 0,
+        },
+        {
+          x: -1,
+          y: 0,
+        },
+        {
+          x: 1,
+          y: 0,
+        },
+        {
+          x: 0,
+          y: 0,
+        },
+      ],
+    },
+    {
+      block_type: "궁수",
+      block_class: "카인",
+      block_level: "200",
+      block_control_point: {
+        x: -5,
+        y: -1,
+      },
+      block_position: [
+        {
+          x: -3,
+          y: -1,
+        },
+        {
+          x: -6,
+          y: -1,
+        },
+        {
+          x: -4,
+          y: -1,
+        },
+        {
+          x: -5,
+          y: -1,
+        },
+      ],
+    },
+    {
+      block_type: "도적",
+      block_class: "칼리",
+      block_level: "215",
+      block_control_point: {
+        x: -8,
+        y: 5,
+      },
+      block_position: [
+        {
+          x: -7,
+          y: 6,
+        },
+        {
+          x: -9,
+          y: 5,
+        },
+        {
+          x: -7,
+          y: 5,
+        },
+        {
+          x: -8,
+          y: 5,
+        },
+      ],
+    },
+  ],
+  union_inner_stat: [
+    {
+      stat_field_id: "0",
+      stat_field_effect: "유니온 최대 HP",
+    },
+    {
+      stat_field_id: "1",
+      stat_field_effect: "유니온 LUK",
+    },
+    {
+      stat_field_id: "2",
+      stat_field_effect: "유니온 DEX",
+    },
+    {
+      stat_field_id: "3",
+      stat_field_effect: "유니온 STR",
+    },
+    {
+      stat_field_id: "4",
+      stat_field_effect: "유니온 최대 MP",
+    },
+    {
+      stat_field_id: "5",
+      stat_field_effect: "유니온 마력",
+    },
+    {
+      stat_field_id: "6",
+      stat_field_effect: "유니온 공격력",
+    },
+    {
+      stat_field_id: "7",
+      stat_field_effect: "유니온 INT",
+    },
+  ],
+};
+export const HexaStatData = {
+  date: "2024-02-12T00:00+09:00",
+  character_class: "아델",
+  character_hexa_stat_core: [
+    {
+      slot_id: "1",
+      main_stat_name: "크리티컬 데미지 증가",
+      sub_stat_name_1: "공격력 증가",
+      sub_stat_name_2: "보스 데미지 증가",
+      main_stat_level: 9,
+      sub_stat_level_1: 2,
+      sub_stat_level_2: 9,
+      stat_grade: 20,
+    },
+  ],
+  preset_hexa_stat_core: [
+    {
+      slot_id: "0",
+      main_stat_name: "크리티컬 데미지 증가",
+      sub_stat_name_1: "공격력 증가",
+      sub_stat_name_2: "보스 데미지 증가",
+      main_stat_level: 8,
+      sub_stat_level_1: 6,
+      sub_stat_level_2: 5,
+      stat_grade: 19,
+    },
+    {
+      slot_id: "1",
+      main_stat_name: "크리티컬 데미지 증가",
+      sub_stat_name_1: "공격력 증가",
+      sub_stat_name_2: "보스 데미지 증가",
+      main_stat_level: 9,
+      sub_stat_level_1: 2,
+      sub_stat_level_2: 9,
+      stat_grade: 20,
+    },
+  ],
+};
+
+export const linkSkillData = {
+  date: "2024-02-26T00:00+09:00",
+  character_class: "신궁",
+  character_link_skill: [
+    {
+      skill_name: "엘프의 축복",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n고대 엘프의 축복으로 에우렐로 돌아갈 수 있고,  영구적으로 경험치를 추가로 받을 수 있다.",
+      skill_level: 2,
+      skill_effect:
+        "사용 시 에우렐로 귀환\n재사용 대기시간 1800초\n추가효과 : 영구적으로 경험치 15% 추가 획득",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPBIA.png",
+    },
+    {
+      skill_name: "하이브리드 로직",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n하이브리드 로직 디자인을 적용하여 모든 능력치가 영구히 증가한다.",
+      skill_level: 2,
+      skill_effect: "모든 능력치 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBIH.png",
+    },
+    {
+      skill_name: "와일드 레이지",
+      skill_description: "[마스터 레벨 : 2]\r\n분노로 인해 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect: "데미지 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJA.png",
+    },
+    {
+      skill_name: "시그너스 블레스",
+      skill_description:
+        "[마스터 레벨 : 10]\r\n각성한 여제의 가호가 몸에 깃들어 적의 위협으로부터 벗어난다.",
+      skill_level: 10,
+      skill_effect:
+        "공격력과 마력 25, 상태 이상 내성 15, 모든 속성 내성 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJF.png",
+    },
+    {
+      skill_name: "판단",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n타고난 판단력으로 적에게 가능한 최고의 치명상을 입힌다.",
+      skill_level: 2,
+      skill_effect: " 크리티컬 데미지 4% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOAEI.png",
+    },
+    {
+      skill_name: "룬 퍼시스턴스",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n룬의 마력을 증폭시켜 해방된 룬의 힘 지속시간을 증가 시킨다.",
+      skill_level: 2,
+      skill_effect: "해방된 룬의 힘 지속시간 50% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOCKJ.png",
+    },
+    {
+      skill_name: "인텐시브 인썰트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신보다 약한 적에겐 더 효과적인 공격을 가한다.",
+      skill_level: 2,
+      skill_effect:
+        "캐릭터보다 레벨이 낮은 몬스터 공격 시 데미지 6% 증가, 상태 이상에 걸린 몬스터 공격 시 데미지 6% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKB.png",
+    },
+    {
+      skill_name: "전투의 흐름",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n전투의 흐름이 끊기지 않게 유지한다.\n일정 시간 내에 특정 거리를 이동 할 때 마다 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "일정 거리 이동 시 발동되며 최대 6회 중첩가능, 지속시간 5초\n각 중첩당 데미지 2% 증가  ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKI.png",
+    },
+    {
+      skill_name: "무아",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신을 잊어버릴 정도로 전투에 집중한다.\n일정 시간 동안 전투 상태가 지속되면 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "전투 상태가 5초 지속되면 발동되며 최대 5회 중첩가능, 지속시간 5초\n발동 시 데미지 1% 증가, 중첩당 데미지 2% 추가 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOENE.png",
+    },
+    {
+      skill_name: "자신감",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n강한 적에게도 위축되지 않는 자신감으로 적의 방어율을 일정 부분 무시하고 체력이 가득 찬 몬스터를 공격할 때 더 큰 피해를 입힌다.",
+      skill_level: 2,
+      skill_effect:
+        "방어율 무시 10% 추가, HP가 100%인 몬스터 공격 시 데미지 14% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOHMJ.png",
+    },
+    {
+      skill_name: "프라이어 프리퍼레이션",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n적을 확실하게 처리하기 위한 사전 준비를 한다.",
+      skill_level: 2,
+      skill_effect:
+        "적 8명 처치, 혹은 보스 몬스터에게 5번 공격 적중 시 사전 준비 1번 완료, 사전 준비를 5번 마치면 20초 동안 데미지 17% 증가\n재발동 대기시간 40초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBNF.png",
+    },
+    {
+      skill_name: "자연의 벗",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n주변의 자연과 친구가 되어 도움을 받는다. 신비한 자연의 힘을 견디지 못하는 약한 몬스터에게는 더 큰 효과가 있다.",
+      skill_level: 2,
+      skill_effect:
+        "데미지 5% 증가\n일반 몬스터 20명 처치 시 자연의 도움 발동, 자연의 도움 발동 시 30초 동안 일반 몬스터 공격 시 데미지 11% 증가\n재발동 대기시간 30초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBJI.png",
+    },
+  ],
+  character_link_skill_preset_1: [
+    {
+      skill_name: "룬 퍼시스턴스",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n룬의 마력을 증폭시켜 해방된 룬의 힘 지속시간을 증가 시킨다.",
+      skill_level: 2,
+      skill_effect: "해방된 룬의 힘 지속시간 50% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOCKJ.png",
+    },
+    {
+      skill_name: "무아",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신을 잊어버릴 정도로 전투에 집중한다.\n일정 시간 동안 전투 상태가 지속되면 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "전투 상태가 5초 지속되면 발동되며 최대 5회 중첩가능, 지속시간 5초\n발동 시 데미지 1% 증가, 중첩당 데미지 2% 추가 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOENE.png",
+    },
+    {
+      skill_name: "시그너스 블레스",
+      skill_description:
+        "[마스터 레벨 : 10]\r\n각성한 여제의 가호가 몸에 깃들어 적의 위협으로부터 벗어난다.",
+      skill_level: 10,
+      skill_effect:
+        "공격력과 마력 25, 상태 이상 내성 15, 모든 속성 내성 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJF.png",
+    },
+    {
+      skill_name: "엘프의 축복",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n고대 엘프의 축복으로 에우렐로 돌아갈 수 있고,  영구적으로 경험치를 추가로 받을 수 있다.",
+      skill_level: 2,
+      skill_effect:
+        "사용 시 에우렐로 귀환\n재사용 대기시간 1800초\n추가효과 : 영구적으로 경험치 15% 추가 획득",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPBIA.png",
+    },
+    {
+      skill_name: "와일드 레이지",
+      skill_description: "[마스터 레벨 : 2]\r\n분노로 인해 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect: "데미지 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJA.png",
+    },
+    {
+      skill_name: "인텐시브 인썰트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신보다 약한 적에겐 더 효과적인 공격을 가한다.",
+      skill_level: 2,
+      skill_effect:
+        "캐릭터보다 레벨이 낮은 몬스터 공격 시 데미지 6% 증가, 상태 이상에 걸린 몬스터 공격 시 데미지 6% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKB.png",
+    },
+    {
+      skill_name: "자신감",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n강한 적에게도 위축되지 않는 자신감으로 적의 방어율을 일정 부분 무시하고 체력이 가득 찬 몬스터를 공격할 때 더 큰 피해를 입힌다.",
+      skill_level: 2,
+      skill_effect:
+        "방어율 무시 10% 추가, HP가 100%인 몬스터 공격 시 데미지 14% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOHMJ.png",
+    },
+    {
+      skill_name: "전투의 흐름",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n전투의 흐름이 끊기지 않게 유지한다.\n일정 시간 내에 특정 거리를 이동 할 때 마다 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "일정 거리 이동 시 발동되며 최대 6회 중첩가능, 지속시간 5초\n각 중첩당 데미지 2% 증가  ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKI.png",
+    },
+    {
+      skill_name: "판단",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n타고난 판단력으로 적에게 가능한 최고의 치명상을 입힌다.",
+      skill_level: 2,
+      skill_effect: " 크리티컬 데미지 4% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOAEI.png",
+    },
+    {
+      skill_name: "자연의 벗",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n주변의 자연과 친구가 되어 도움을 받는다. 신비한 자연의 힘을 견디지 못하는 약한 몬스터에게는 더 큰 효과가 있다.",
+      skill_level: 2,
+      skill_effect:
+        "데미지 5% 증가\n일반 몬스터 20명 처치 시 자연의 도움 발동, 자연의 도움 발동 시 30초 동안 일반 몬스터 공격 시 데미지 11% 증가\n재발동 대기시간 30초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBJI.png",
+    },
+    {
+      skill_name: "프라이어 프리퍼레이션",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n적을 확실하게 처리하기 위한 사전 준비를 한다.",
+      skill_level: 2,
+      skill_effect:
+        "적 8명 처치, 혹은 보스 몬스터에게 5번 공격 적중 시 사전 준비 1번 완료, 사전 준비를 5번 마치면 20초 동안 데미지 17% 증가\n재발동 대기시간 40초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBNF.png",
+    },
+    {
+      skill_name: "하이브리드 로직",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n하이브리드 로직 디자인을 적용하여 모든 능력치가 영구히 증가한다.",
+      skill_level: 2,
+      skill_effect: "모든 능력치 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBIH.png",
+    },
+  ],
+  character_link_skill_preset_2: [
+    {
+      skill_name: "데몬스 퓨리",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n대상이 보스일 경우, 내면에 잠재된 분노를 이끌어 내 더욱 강력한 데미지를 입힌다.",
+      skill_level: 2,
+      skill_effect: "보스 몬스터 공격 시 데미지 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBMB.png",
+    },
+    {
+      skill_name: "무아",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신을 잊어버릴 정도로 전투에 집중한다.\n일정 시간 동안 전투 상태가 지속되면 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "전투 상태가 5초 지속되면 발동되며 최대 5회 중첩가능, 지속시간 5초\n발동 시 데미지 1% 증가, 중첩당 데미지 2% 추가 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOENE.png",
+    },
+    {
+      skill_name: "소울 컨트랙트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n에스카다와의 계약을 통해 순간적으로 데미지를 극대화한다.",
+      skill_level: 2,
+      skill_effect: "10초 동안 데미지 45% 증가\n재사용 대기시간 60초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPAJF.png",
+    },
+    {
+      skill_name: "스피릿 오브 프리덤",
+      skill_description:
+        "[마스터 레벨 : 8]\r\n자유를 염원하는 레지스탕스가 가진 혼의 힘으로 부활 시 일정 시간 동안 피해를 받지 않는다.",
+      skill_level: 8,
+      skill_effect: "부활 시 8초 동안 피해를 받지 않음, 맵 이동 시 해제",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOCOJ.png",
+    },
+    {
+      skill_name: "시그너스 블레스",
+      skill_description:
+        "[마스터 레벨 : 10]\r\n각성한 여제의 가호가 몸에 깃들어 적의 위협으로부터 벗어난다.",
+      skill_level: 10,
+      skill_effect:
+        "공격력과 마력 25, 상태 이상 내성 15, 모든 속성 내성 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJF.png",
+    },
+    {
+      skill_name: "시프 커닝",
+      skill_description:
+        "[마스터 레벨 : 6]\r\n도적 특유의 교활함을 발휘해 적을 약화시키면 데미지가 증가한다.\n재사용 대기시간 초기화, 버프 지속시간 증가의 효과를 받지 않는다.",
+      skill_level: 6,
+      skill_effect:
+        "적에게 상태 이상을 적용시키면 10초 동안 데미지 18% 증가\n재발동 대기시간 20초 ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMGLA.png",
+    },
+    {
+      skill_name: "와일드 레이지",
+      skill_description: "[마스터 레벨 : 2]\r\n분노로 인해 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect: "데미지 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJA.png",
+    },
+    {
+      skill_name: "인텐시브 인썰트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신보다 약한 적에겐 더 효과적인 공격을 가한다.",
+      skill_level: 2,
+      skill_effect:
+        "캐릭터보다 레벨이 낮은 몬스터 공격 시 데미지 6% 증가, 상태 이상에 걸린 몬스터 공격 시 데미지 6% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKB.png",
+    },
+    {
+      skill_name: "임피리컬 널리지",
+      skill_description:
+        "[마스터 레벨 : 6]\r\n실전적인 탐구를 통해 약점을 파악하여 해당 적에 대한 데미지와 방어율 무시를 점차 증가시킨다.",
+      skill_level: 6,
+      skill_effect:
+        "공격한 적 중 최대 HP가 가장 높은 적에 대한 약점을 25% 확률로 파악, 파악한 약점은 10초 동안 지속되며 최대 3회까지 중첩\n중첩 당 데미지 3%, 방어율 무시 3% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMGKC.png",
+    },
+    {
+      skill_name: "인빈서블 빌리프",
+      skill_description:
+        "[마스터 레벨 : 6]\r\n꺾이지 않는 신념을 가져 위기 상황일 때 HP를 대량으로 회복한다.\n마을 및 특정한 회복 불가 상황에서는 발동되지 않고 재사용 대기시간 초기화, 버프 지속시간 증가, 회복 스킬 효율 증가 및 감소의 효과를 받지 않는다.\n월드 내 서로 다른 모험가 전사 직업군이 존재할 경우 한 캐릭터에 최대 3번 중복해서 링크 스킬 지급이 가능하다.",
+      skill_level: 6,
+      skill_effect:
+        "현재 HP가 최대 HP의 15% 이하가 되었을 때 자동 발동되어 3초 동안 1초 마다 최대 HP의 35% 회복\n재발동 대기시간 210초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMGJI.png",
+    },
+    {
+      skill_name: "판단",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n타고난 판단력으로 적에게 가능한 최고의 치명상을 입힌다.",
+      skill_level: 2,
+      skill_effect: " 크리티컬 데미지 4% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOAEI.png",
+    },
+    {
+      skill_name: "하이브리드 로직",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n하이브리드 로직 디자인을 적용하여 모든 능력치가 영구히 증가한다.",
+      skill_level: 2,
+      skill_effect: "모든 능력치 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBIH.png",
+    },
+  ],
+  character_link_skill_preset_3: [
+    {
+      skill_name: "데몬스 퓨리",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n대상이 보스일 경우, 내면에 잠재된 분노를 이끌어 내 더욱 강력한 데미지를 입힌다.",
+      skill_level: 2,
+      skill_effect: "보스 몬스터 공격 시 데미지 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBMB.png",
+    },
+    {
+      skill_name: "무아",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신을 잊어버릴 정도로 전투에 집중한다.\n일정 시간 동안 전투 상태가 지속되면 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect:
+        "전투 상태가 5초 지속되면 발동되며 최대 5회 중첩가능, 지속시간 5초\n발동 시 데미지 1% 증가, 중첩당 데미지 2% 추가 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOENE.png",
+    },
+    {
+      skill_name: "소울 컨트랙트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n에스카다와의 계약을 통해 순간적으로 데미지를 극대화한다.",
+      skill_level: 2,
+      skill_effect: "10초 동안 데미지 45% 증가\n재사용 대기시간 60초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPAJF.png",
+    },
+    {
+      skill_name: "시그너스 블레스",
+      skill_description:
+        "[마스터 레벨 : 10]\r\n각성한 여제의 가호가 몸에 깃들어 적의 위협으로부터 벗어난다.",
+      skill_level: 10,
+      skill_effect:
+        "공격력과 마력 25, 상태 이상 내성 15, 모든 속성 내성 15% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJF.png",
+    },
+    {
+      skill_name: "시프 커닝",
+      skill_description:
+        "[마스터 레벨 : 6]\r\n도적 특유의 교활함을 발휘해 적을 약화시키면 데미지가 증가한다.\n재사용 대기시간 초기화, 버프 지속시간 증가의 효과를 받지 않는다.",
+      skill_level: 6,
+      skill_effect:
+        "적에게 상태 이상을 적용시키면 10초 동안 데미지 18% 증가\n재발동 대기시간 20초 ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMGLA.png",
+    },
+    {
+      skill_name: "와일드 레이지",
+      skill_description: "[마스터 레벨 : 2]\r\n분노로 인해 데미지가 증가한다.",
+      skill_level: 2,
+      skill_effect: "데미지 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBJA.png",
+    },
+    {
+      skill_name: "인텐시브 인썰트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n자신보다 약한 적에겐 더 효과적인 공격을 가한다.",
+      skill_level: 2,
+      skill_effect:
+        "캐릭터보다 레벨이 낮은 몬스터 공격 시 데미지 6% 증가, 상태 이상에 걸린 몬스터 공격 시 데미지 6% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHODKB.png",
+    },
+    {
+      skill_name: "임피리컬 널리지",
+      skill_description:
+        "[마스터 레벨 : 6]\r\n실전적인 탐구를 통해 약점을 파악하여 해당 적에 대한 데미지와 방어율 무시를 점차 증가시킨다.",
+      skill_level: 6,
+      skill_effect:
+        "공격한 적 중 최대 HP가 가장 높은 적에 대한 약점을 25% 확률로 파악, 파악한 약점은 10초 동안 지속되며 최대 3회까지 중첩\n중첩 당 데미지 3%, 방어율 무시 3% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMGKC.png",
+    },
+    {
+      skill_name: "판단",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n타고난 판단력으로 적에게 가능한 최고의 치명상을 입힌다.",
+      skill_level: 2,
+      skill_effect: " 크리티컬 데미지 4% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOAEI.png",
+    },
+    {
+      skill_name: "퍼미에이트",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n무엇으로 가려도 스며드는 빛의 힘으로 적의 방어를 일정 부분 무시한다.",
+      skill_level: 2,
+      skill_effect: "적 공격 시 방어율 무시 15% 적용",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBMF.png",
+    },
+    {
+      skill_name: "프라이어 프리퍼레이션",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n적을 확실하게 처리하기 위한 사전 준비를 한다.",
+      skill_level: 2,
+      skill_effect:
+        "적 8명 처치, 혹은 보스 몬스터에게 5번 공격 적중 시 사전 준비 1번 완료, 사전 준비를 5번 마치면 20초 동안 데미지 17% 증가\n재발동 대기시간 40초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBNF.png",
+    },
+    {
+      skill_name: "하이브리드 로직",
+      skill_description:
+        "[마스터 레벨 : 2]\r\n하이브리드 로직 디자인을 적용하여 모든 능력치가 영구히 증가한다.",
+      skill_level: 2,
+      skill_effect: "모든 능력치 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHOBIH.png",
+    },
+  ],
+  character_owned_link_skill: {
+    skill_name: "어드벤쳐러 큐리어스(신궁)",
+    skill_description:
+      "[마스터 레벨 : 6]\r\n특유의 호기심을 발휘해 몬스터 컬렉션 등록 확률과 크리티컬 확률을 증가시킨다.\n몬스터 컬렉션 등록 확률은 기존 확률에 곱적용으로 적용된다.\n월드 내 서로 다른 모험가 궁수 직업군이 존재할 경우 한 캐릭터에 최대 3번 중복해서 링크 스킬 지급이 가능하다.",
+    skill_level: 6,
+    skill_effect: "몬스터 컬렉션 등록 확률 35%, 크리티컬 확률 10% 증가",
+    skill_icon:
+      "https://open.api.nexon.com/static/maplestory/SkillIcon/KFPCLHODJJ.png",
+  },
+  character_owned_link_skill_preset_1: {
+    skill_name: "어드벤쳐러 큐리어스(신궁)",
+    skill_description:
+      "[마스터 레벨 : 6]\r\n특유의 호기심을 발휘해 몬스터 컬렉션 등록 확률과 크리티컬 확률을 증가시킨다.\n몬스터 컬렉션 등록 확률은 기존 확률에 곱적용으로 적용된다.\n월드 내 서로 다른 모험가 궁수 직업군이 존재할 경우 한 캐릭터에 최대 3번 중복해서 링크 스킬 지급이 가능하다.",
+    skill_level: 6,
+    skill_effect: "몬스터 컬렉션 등록 확률 35%, 크리티컬 확률 10% 증가",
+    skill_icon:
+      "https://open.api.nexon.com/static/maplestory/SkillIcon/KFPCLHODJJ.png",
+  },
+  character_owned_link_skill_preset_2: {
+    skill_name: "어드벤쳐러 큐리어스(신궁)",
+    skill_description:
+      "[마스터 레벨 : 6]\r\n특유의 호기심을 발휘해 몬스터 컬렉션 등록 확률과 크리티컬 확률을 증가시킨다.\n몬스터 컬렉션 등록 확률은 기존 확률에 곱적용으로 적용된다.\n월드 내 서로 다른 모험가 궁수 직업군이 존재할 경우 한 캐릭터에 최대 3번 중복해서 링크 스킬 지급이 가능하다.",
+    skill_level: 6,
+    skill_effect: "몬스터 컬렉션 등록 확률 35%, 크리티컬 확률 10% 증가",
+    skill_icon:
+      "https://open.api.nexon.com/static/maplestory/SkillIcon/KFPCLHODJJ.png",
+  },
+  character_owned_link_skill_preset_3: {
+    skill_name: "어드벤쳐러 큐리어스(신궁)",
+    skill_description:
+      "[마스터 레벨 : 6]\r\n특유의 호기심을 발휘해 몬스터 컬렉션 등록 확률과 크리티컬 확률을 증가시킨다.\n몬스터 컬렉션 등록 확률은 기존 확률에 곱적용으로 적용된다.\n월드 내 서로 다른 모험가 궁수 직업군이 존재할 경우 한 캐릭터에 최대 3번 중복해서 링크 스킬 지급이 가능하다.",
+    skill_level: 6,
+    skill_effect: "몬스터 컬렉션 등록 확률 35%, 크리티컬 확률 10% 증가",
+    skill_icon:
+      "https://open.api.nexon.com/static/maplestory/SkillIcon/KFPCLHODJJ.png",
+  },
+};
 
 export const popData = {
   date: "2024-02-04T00:00+09:00",
@@ -15788,6 +17861,9 @@ export const equipPresetData1 = [
     date_expire: null,
   },
 ];
+
+export const equipPresetData11 = [];
+
 export const equipPresetData2 = [
   {
     item_equipment_part: "모자",
@@ -18817,6 +20893,8 @@ export const equipPresetData2 = [
     date_expire: null,
   },
 ];
+export const equipPresetData22 = [];
+
 export const equipPresetData3 = [
   {
     item_equipment_part: "모자",
@@ -21847,6 +23925,7 @@ export const equipPresetData3 = [
     date_expire: null,
   },
 ];
+export const equipPresetData33 = [];
 
 export const equipTitleData = {
   title_name: "예티X핑크빈",
@@ -21857,129 +23936,6 @@ export const equipTitleData = {
   date_expire: null,
   date_option_expire: null,
 };
-
-const 테스트 = [
-  {
-    item_equipment_part: "모자",
-    item_equipment_slot: "모자",
-    item_name: "0",
-  },
-  {
-    item_equipment_part: "눈장식",
-    item_equipment_slot: "눈장식",
-    item_name: "1",
-  },
-  {
-    item_equipment_part: "상의",
-    item_equipment_slot: "상의",
-    item_name: "2",
-  },
-  {
-    item_equipment_part: "하의",
-    item_equipment_slot: "하의",
-    item_name: "3",
-  },
-  {
-    item_equipment_part: "신발",
-    item_equipment_slot: "신발",
-    item_name: "4",
-  },
-  {
-    item_equipment_part: "장갑",
-    item_equipment_slot: "장갑",
-    item_name: "5",
-  },
-  {
-    item_equipment_part: "망토",
-    item_equipment_slot: "망토",
-    item_name: "6",
-  },
-  {
-    item_equipment_part: "활골무",
-    item_equipment_slot: "보조무기",
-    item_name: "7",
-  },
-  {
-    item_equipment_part: "석궁",
-    item_equipment_slot: "무기",
-    item_name: "8",
-  },
-  {
-    item_equipment_part: "반지",
-    item_equipment_slot: "반지2",
-    item_name: "9",
-  },
-  {
-    item_equipment_part: "반지",
-    item_equipment_slot: "반지3",
-    item_name: "10",
-  },
-  {
-    item_equipment_part: "반지",
-    item_equipment_slot: "반지4",
-    item_name: "11",
-  },
-  {
-    item_equipment_part: "벨트",
-    item_equipment_slot: "벨트",
-    item_name: "12",
-  },
-  {
-    item_equipment_part: "어깨장식",
-    item_equipment_slot: "어깨장식",
-    item_name: "13",
-  },
-  {
-    item_equipment_part: "포켓 아이템",
-    item_equipment_slot: "포켓 아이템",
-    item_name: "14",
-  },
-  {
-    item_equipment_part: "기계 심장",
-    item_equipment_slot: "기계 심장",
-    item_name: "15",
-  },
-  {
-    item_equipment_part: "뱃지",
-    item_equipment_slot: "뱃지",
-    item_name: "16",
-  },
-  {
-    item_equipment_part: "엠블렘",
-    item_equipment_slot: "엠블렘",
-    item_name: "17",
-  },
-  {
-    item_equipment_part: "얼굴장식",
-    item_equipment_slot: "얼굴장식",
-    item_name: "18",
-  },
-  {
-    item_equipment_part: "귀고리",
-    item_equipment_slot: "귀고리",
-    item_name: "19",
-  },
-  {
-    item_equipment_part: "반지",
-    item_equipment_slot: "반지1",
-    item_name: "20",
-  },
-  {
-    item_equipment_part: "펜던트",
-    item_equipment_slot: "펜던트",
-    item_name: "21",
-  },
-  {
-    item_equipment_part: "훈장",
-    item_equipment_slot: "훈장",
-    item_name: "22",
-  },
-  {
-    item_equipment_part: "펜던트",
-    item_equipment_slot: "펜던트2",
-    item_name: "23",
-  },
-];
 
 export const cashEquipData = {
   date: "2024-02-04T00:00+09:00",
@@ -22397,1279 +24353,6 @@ export const cashEquipData = {
   additional_cash_item_equipment_preset_2: [],
   additional_cash_item_equipment_preset_3: [],
 };
-export const cashEquipData2 = {
-  date: "2024-02-04T00:00+09:00",
-  character_gender: "남",
-  character_class: "아델",
-  preset_no: 3,
-  cash_item_equipment_base: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "메르헨 프린세스",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCNEGG.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "LUK",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-08-01T23:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "얼굴장식",
-      cash_item_equipment_slot: "얼굴장식",
-      cash_item_name: "투명 얼굴장식",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJFGI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "투명 안경",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "귀고리",
-      cash_item_equipment_slot: "귀고리",
-      cash_item_name: "투명 귀고리",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPBJHMF.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "별의 소원",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHLAMI.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "방어력",
-          option_value: "300",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-05-03T00:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "카트시 부츠",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFLGJC.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "점프력",
-          option_value: "50",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-05-03T17:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "폼폼 핀쿠션",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJAJI.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "20",
-        },
-        {
-          option_type: "DEX",
-          option_value: "20",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-28T13:00+09:00",
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "메르헨 캐슬",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCIBLE.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "INT",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-22T19:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "페어리 래빗",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICIDMH.png",
-      cash_item_description:
-        "모든 무기에 착용이 가능한 무기이다.\n착용 시 걷기, 점프, 밧줄 및 사다리 타기 동작에서 특별한 메르헨 이펙트가 출력된다.",
-      cash_item_option: [
-        {
-          option_type: "공격력",
-          option_value: "30",
-        },
-        {
-          option_type: "마력",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2025-01-20T05:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_1: [],
-  cash_item_equipment_preset_2: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "가을 이야기",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCNEGA.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "얼굴장식",
-      cash_item_equipment_slot: "얼굴장식",
-      cash_item_name: "발그레 발그레",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJEJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "투명 안경",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "가을 햇빛",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHLAMG.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "가을길",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFIPPD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "물든 가을",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCIBLC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "투명 무기",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICIGMI.png",
-      cash_item_description:
-        "블레이드를 제외한 모든 무기에 착용이 가능한 투명한 무기이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_3: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "호이포이 모자",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCPGGB.png",
-      cash_item_description: "중국 메이플 유저 샤오슈가 디자인한 모자다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "레드라벨",
-      cash_item_coloring_prism: {
-        color_range: "전체 색상 계열",
-        hue: 67,
-        saturation: 68,
-        value: 47,
-      },
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "얼굴장식",
-      cash_item_equipment_slot: "얼굴장식",
-      cash_item_name: "발그레 발그레",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJEJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "투명 안경",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "우리네 멜빵바지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHIGOD.png",
-      cash_item_description: "놀랍게도 [멜빵]과 [바지]는 순우리말이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "투명 신발",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJGLC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "투명 장갑",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJGOD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "투명 망토",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCJHNI.png",
-      cash_item_description:
-        "현재 장비하고 있는 망토의 기능을 모두 사용하면서 망토를 가리고 싶을때 사용해 보세요.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "투명 무기",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICIGMI.png",
-      cash_item_description:
-        "블레이드를 제외한 모든 무기에 착용이 가능한 투명한 무기이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  additional_cash_item_equipment_base: [],
-  additional_cash_item_equipment_preset_1: [],
-  additional_cash_item_equipment_preset_2: [],
-  additional_cash_item_equipment_preset_3: [],
-};
-export const cashEquipData3 = {
-  date: "2024-02-04T00:00+09:00",
-  character_gender: "여",
-  character_class: "에반",
-  preset_no: 1,
-  cash_item_equipment_base: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "기억의 갈래",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCOEIF.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "INT",
-          option_value: "30",
-        },
-        {
-          option_type: "LUK",
-          option_value: "30",
-        },
-        {
-          option_type: "최대 HP",
-          option_value: "1500",
-        },
-        {
-          option_type: "최대 MP",
-          option_value: "1500",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-02-20T23:57+09:00",
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "얼굴장식",
-      cash_item_equipment_slot: "얼굴장식",
-      cash_item_name: "인형핑크",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJHGC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "투명 안경",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "귀고리",
-      cash_item_equipment_slot: "귀고리",
-      cash_item_name: "투명 귀고리",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPBJHMF.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "호수 물결",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHIDKB.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "방어력",
-          option_value: "300",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-02-20T23:57+09:00",
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "신기루 자욱",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFIELH.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "이동속도",
-          option_value: "50",
-        },
-        {
-          option_type: "점프력",
-          option_value: "50",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-02-20T23:57+09:00",
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "투명 장갑",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJGOD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "에르다의 빛",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCIGHC.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "INT",
-          option_value: "30",
-        },
-        {
-          option_type: "LUK",
-          option_value: "30",
-        },
-        {
-          option_type: "최대 HP",
-          option_value: "1500",
-        },
-        {
-          option_type: "최대 MP",
-          option_value: "1500",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-02-20T23:57+09:00",
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "방패",
-      cash_item_equipment_slot: "보조무기",
-      cash_item_name: "투명 방패",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPLJHIG.png",
-      cash_item_description:
-        "방패 및 소울링, 컨트롤러 외에도 보조무기를 착용 중이라면 투명 방패를 착용할 수 있습니다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "망각의 등불",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICJOME.png",
-      cash_item_description: "모든 무기에 착용이 가능하다.",
-      cash_item_option: [
-        {
-          option_type: "공격력",
-          option_value: "30",
-        },
-        {
-          option_type: "마력",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-02-20T23:57+09:00",
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지1",
-      cash_item_name: "메이플 아이돌 명찰 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODOEKB.png",
-      cash_item_description: "캐릭터 이름이 메이플 아이돌 명찰에 나타난다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지2",
-      cash_item_name: "메이플 아이돌 말풍선 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODOFNI.png",
-      cash_item_description:
-        "캐릭터가 대화를 할 때, 메이플 아이돌 말풍선이 나타난다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_1: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "드림 리본",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCNEKA.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: {
-        color_range: "전체 색상 계열",
-        hue: 82,
-        saturation: -4,
-        value: 44,
-      },
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "달송 눈꽃",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHIPMA.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "투명 신발",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJGLC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "화려한 조명",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCIFGG.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "꽃보다 나비",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICJGJF.png",
-      cash_item_description: "모든 무기에 착용이 가능한 무기이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_2: [],
-  cash_item_equipment_preset_3: [],
-  additional_cash_item_equipment_base: [],
-  additional_cash_item_equipment_preset_1: [],
-  additional_cash_item_equipment_preset_2: [],
-  additional_cash_item_equipment_preset_3: [],
-};
-export const cashEquipData4 = {
-  date: "2024-02-04T00:00+09:00",
-  character_gender: "남",
-  character_class: "듀얼블레이더",
-  preset_no: 1,
-  cash_item_equipment_base: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "메르헨 프린스",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCNEGE.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "LUK",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-02T18:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "얼굴장식",
-      cash_item_equipment_slot: "얼굴장식",
-      cash_item_name: "인형 보라",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJBIJ.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "투명 안경",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHJI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "귀고리",
-      cash_item_equipment_slot: "귀고리",
-      cash_item_name: "투명 귀고리",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPBJHMF.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "별의 소원",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHLAMI.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "방어력",
-          option_value: "300",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-05-02T01:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "카트시 부츠",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFLGJC.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "점프력",
-          option_value: "50",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-04T21:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "폼폼 핀쿠션",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJAJI.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "20",
-        },
-        {
-          option_type: "DEX",
-          option_value: "17",
-        },
-        {
-          option_type: "LUK",
-          option_value: "20",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-09T02:00+09:00",
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "메르헨 캐슬",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCIBLE.png",
-      cash_item_description: null,
-      cash_item_option: [
-        {
-          option_type: "STR",
-          option_value: "30",
-        },
-        {
-          option_type: "DEX",
-          option_value: "30",
-        },
-        {
-          option_type: "LUK",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-12-12T01:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "블레이드",
-      cash_item_equipment_slot: "보조무기",
-      cash_item_name: "투명 블레이드",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEMGJHII.png",
-      cash_item_description: "블레이드에 착용이 가능한 투명한 블레이드다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "페어리 래빗",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICIDMH.png",
-      cash_item_description:
-        "모든 무기에 착용이 가능한 무기이다.\n착용 시 걷기, 점프, 밧줄 및 사다리 타기 동작에서 특별한 메르헨 이펙트가 출력된다.",
-      cash_item_option: [
-        {
-          option_type: "공격력",
-          option_value: "30",
-        },
-        {
-          option_type: "마력",
-          option_value: "30",
-        },
-      ],
-      date_expire: null,
-      date_option_expire: "2024-11-05T01:00+09:00",
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지1",
-      cash_item_name: "메이프릴 명찰 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODOEGE.png",
-      cash_item_description: "캐릭터 이름이 메이프릴 명찰에 나타난다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지2",
-      cash_item_name: "메이프릴 말풍선 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODOFGD.png",
-      cash_item_description:
-        "캐릭터가 대화를 할 때, 메이프릴 말풍선이 나타난다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_1: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "로망 로즈",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCIOLE.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "베이비돌 푸카",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHLFHI.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "스타 윙클",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJPIB.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "페어리 스파크",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJCLE.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "슈가파우더",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCJOJH.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "페어리 피코",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICJDLH.png",
-      cash_item_description: "모든 무기에 착용이 가능한 무기이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "마스터라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_2: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "암염의 두건",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCPHOD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "레드라벨",
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "일지매 암행복",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHJGGC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "암염의 샌들",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFLHLG.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "스페셜라벨",
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "투명 장갑",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJGOD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "망토",
-      cash_item_equipment_slot: "망토",
-      cash_item_name: "암염의 속죄가",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCJBND.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "레드라벨",
-      cash_item_coloring_prism: {
-        color_range: "전체 색상 계열",
-        hue: 0,
-        saturation: -99,
-        value: -99,
-      },
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "무기",
-      cash_item_equipment_slot: "무기",
-      cash_item_name: "암염의 집행자",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEICJDJC.png",
-      cash_item_description: "모든 무기에 착용이 가능한 무기이다.",
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: "블랙라벨",
-      cash_item_coloring_prism: {
-        color_range: "전체 색상 계열",
-        hue: 0,
-        saturation: -99,
-        value: -99,
-      },
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지1",
-      cash_item_name: "하얀구름 명찰 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODJGPH.png",
-      cash_item_description:
-        "캐릭터 아바타 밑에 하얀구름에 검은색 글씨로 캐릭터 이름이 나온다.",
-      cash_item_option: [],
-      date_expire: "2024-04-17T19:05+09:00",
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "반지",
-      cash_item_equipment_slot: "반지2",
-      cash_item_name: "하얀구름 말풍선 반지",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODJFMH.png",
-      cash_item_description: "캐릭터가 대화를 할 때, 하얀구름 말풍선이 나온다.",
-      cash_item_option: [],
-      date_expire: "2024-04-17T19:05+09:00",
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  cash_item_equipment_preset_3: [
-    {
-      cash_item_equipment_part: "모자",
-      cash_item_equipment_slot: "모자",
-      cash_item_name: "종이 봉투",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCJCNH.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "눈장식",
-      cash_item_equipment_slot: "눈장식",
-      cash_item_name: "최면술 안경(적)",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPAJHMA.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "한벌옷",
-      cash_item_equipment_slot: "상의",
-      cash_item_name: "블루 삼각 수영복",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPHLGPG.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: "남",
-    },
-    {
-      cash_item_equipment_part: "신발",
-      cash_item_equipment_slot: "신발",
-      cash_item_name: "투명 신발",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJGLC.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-    {
-      cash_item_equipment_part: "장갑",
-      cash_item_equipment_slot: "장갑",
-      cash_item_name: "눈사람 장갑",
-      cash_item_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJBKD.png",
-      cash_item_description: null,
-      cash_item_option: [],
-      date_expire: null,
-      date_option_expire: null,
-      cash_item_label: null,
-      cash_item_coloring_prism: null,
-      item_gender: null,
-    },
-  ],
-  additional_cash_item_equipment_base: [],
-  additional_cash_item_equipment_preset_1: [],
-  additional_cash_item_equipment_preset_2: [],
-  additional_cash_item_equipment_preset_3: [],
-};
 
 export const symbolData = {
   date: "2024-02-04T00:00+09:00",
@@ -23682,13 +24365,13 @@ export const symbolData = {
       symbol_description:
         "소멸의 여로지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
       symbol_force: "220",
-      symbol_level: 20,
+      symbol_level: 19,
       symbol_str: "0",
       symbol_dex: "2200",
       symbol_int: "0",
       symbol_luk: "0",
       symbol_hp: "0",
-      symbol_growth_count: 0,
+      symbol_growth_count: 220,
       symbol_require_growth_count: 411,
     },
     {
@@ -23834,578 +24517,6 @@ export const symbolData = {
       symbol_hp: "0",
       symbol_growth_count: 700,
       symbol_require_growth_count: 444,
-    },
-  ],
-};
-
-export const symbolData4 = {
-  date: "2024-02-04T00:00+09:00",
-  character_class: "메르세데스",
-  symbol: [
-    {
-      symbol_name: "아케인심볼 : 소멸의 여로",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOA.png",
-      symbol_description:
-        "소멸의 여로지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "180",
-      symbol_level: 16,
-      symbol_str: "0",
-      symbol_dex: "1800",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 140,
-      symbol_require_growth_count: 267,
-    },
-    {
-      symbol_name: "아케인심볼 : 츄츄 아일랜드",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOD.png",
-      symbol_description:
-        "츄츄 아일랜드지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "160",
-      symbol_level: 14,
-      symbol_str: "0",
-      symbol_dex: "1600",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 25,
-      symbol_require_growth_count: 207,
-    },
-    {
-      symbol_name: "아케인심볼 : 레헬른",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOC.png",
-      symbol_description:
-        "레헬른지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "150",
-      symbol_level: 13,
-      symbol_str: "0",
-      symbol_dex: "1500",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 99,
-      symbol_require_growth_count: 180,
-    },
-    {
-      symbol_name: "아케인심볼 : 아르카나",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOF.png",
-      symbol_description:
-        "아르카나지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "150",
-      symbol_level: 13,
-      symbol_str: "0",
-      symbol_dex: "1500",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 73,
-      symbol_require_growth_count: 180,
-    },
-    {
-      symbol_name: "아케인심볼 : 모라스",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOE.png",
-      symbol_description:
-        "모라스지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "150",
-      symbol_level: 13,
-      symbol_str: "0",
-      symbol_dex: "1500",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 13,
-      symbol_require_growth_count: 180,
-    },
-    {
-      symbol_name: "아케인심볼 : 에스페라",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOH.png",
-      symbol_description:
-        "에스페라지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "150",
-      symbol_level: 13,
-      symbol_str: "0",
-      symbol_dex: "1500",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 17,
-      symbol_require_growth_count: 180,
-    },
-    {
-      symbol_name: "어센틱심볼 : 세르니움",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOB.png",
-      symbol_description:
-        "세르니움지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "20",
-      symbol_level: 2,
-      symbol_str: "0",
-      symbol_dex: "700",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "0",
-      symbol_growth_count: 72,
-      symbol_require_growth_count: 76,
-    },
-  ],
-};
-
-export const symbolData3 = {
-  date: "2024-02-04T00:00+09:00",
-  character_class: "듀얼블레이더",
-  symbol: [
-    {
-      symbol_name: "아케인심볼 : 소멸의 여로",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOA.png",
-      symbol_description:
-        "소멸의 여로지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 츄츄 아일랜드",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOD.png",
-      symbol_description:
-        "츄츄 아일랜드지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 레헬른",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOC.png",
-      symbol_description:
-        "레헬른지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 아르카나",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOF.png",
-      symbol_description:
-        "아르카나지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 모라스",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOE.png",
-      symbol_description:
-        "모라스지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 에스페라",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOH.png",
-      symbol_description:
-        "에스페라지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "어센틱심볼 : 세르니움",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOB.png",
-      symbol_description:
-        "세르니움지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 아르크스",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOA.png",
-      symbol_description:
-        "아르크스지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 오디움",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOD.png",
-      symbol_description:
-        "오디움지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 도원경",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOC.png",
-      symbol_description:
-        "도원경지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 아르테리아",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOF.png",
-      symbol_description:
-        "아르테리아지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 카르시온",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOE.png",
-      symbol_description:
-        "카르시온지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "2500",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-  ],
-};
-
-export const symbolData2 = {
-  date: "2024-02-04T00:00+09:00",
-  character_class: "데몬어벤져",
-  symbol: [
-    {
-      symbol_name: "아케인심볼 : 소멸의 여로",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOA.png",
-      symbol_description:
-        "소멸의 여로지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "120",
-      symbol_level: 10,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "25200",
-      symbol_growth_count: 37,
-      symbol_require_growth_count: 111,
-    },
-    {
-      symbol_name: "아케인심볼 : 츄츄 아일랜드",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOD.png",
-      symbol_description:
-        "츄츄 아일랜드지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 9,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "23100",
-      symbol_growth_count: 77,
-      symbol_require_growth_count: 92,
-    },
-    {
-      symbol_name: "아케인심볼 : 레헬른",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOC.png",
-      symbol_description:
-        "레헬른지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 9,
-      symbol_str: "0",
-      symbol_dex: "0",
-      symbol_int: "0",
-      symbol_luk: "0",
-      symbol_hp: "23100",
-      symbol_growth_count: 37,
-      symbol_require_growth_count: 92,
-    },
-  ],
-};
-
-export const symbolData5 = {
-  date: "2024-02-05T00:00+09:00",
-  character_class: "제논",
-  symbol: [
-    {
-      symbol_name: "아케인심볼 : 소멸의 여로",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOA.png",
-      symbol_description:
-        "소멸의 여로지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 츄츄 아일랜드",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOD.png",
-      symbol_description:
-        "츄츄 아일랜드지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 레헬른",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOC.png",
-      symbol_description:
-        "레헬른지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 아르카나",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOF.png",
-      symbol_description:
-        "아르카나지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 모라스",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOE.png",
-      symbol_description:
-        "모라스지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "아케인심볼 : 에스페라",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDJHOH.png",
-      symbol_description:
-        "에스페라지역의 아케인심볼이다. 아케인심볼은 아케인포스를 가지며 소지한 자와 공명하여 해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 아케인심볼을 더블 클릭하면 성장시킬 수 있다. 아케인심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n아케인심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "220",
-      symbol_level: 20,
-      symbol_str: "1056",
-      symbol_dex: "1056",
-      symbol_int: "0",
-      symbol_luk: "1056",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 411,
-    },
-    {
-      symbol_name: "어센틱심볼 : 세르니움",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOB.png",
-      symbol_description:
-        "세르니움지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "1200",
-      symbol_dex: "1200",
-      symbol_int: "0",
-      symbol_luk: "1200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 아르크스",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOA.png",
-      symbol_description:
-        "아르크스지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "1200",
-      symbol_dex: "1200",
-      symbol_int: "0",
-      symbol_luk: "1200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 오디움",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOD.png",
-      symbol_description:
-        "오디움지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "1200",
-      symbol_dex: "1200",
-      symbol_int: "0",
-      symbol_luk: "1200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 도원경",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOC.png",
-      symbol_description:
-        "도원경지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "1200",
-      symbol_dex: "1200",
-      symbol_int: "0",
-      symbol_luk: "1200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 아르테리아",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOF.png",
-      symbol_description:
-        "아르테리아지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "110",
-      symbol_level: 11,
-      symbol_str: "1200",
-      symbol_dex: "1200",
-      symbol_int: "0",
-      symbol_luk: "1200",
-      symbol_hp: "0",
-      symbol_growth_count: 0,
-      symbol_require_growth_count: 1309,
-    },
-    {
-      symbol_name: "어센틱심볼 : 카르시온",
-      symbol_icon:
-        "https://open.api.nexon.com/static/maplestory/ItemIcon/KEIDIHOE.png",
-      symbol_description:
-        "카르시온지역의 어센틱심볼이다. 어센틱심볼은 어센틱포스를 가지며 소지한 자와 공명하여해당 캐릭터에 맞는 주스탯을 증가시켜준다.\n\n해당 장비를 장착한 후, 인벤토리 내 같은 종류의 어센틱심볼을더블 클릭하면 성장시킬 수 있다. 어센틱심볼의 성장치가 일정 수준 이상이 되면 해당 장비를 강화하여 레벨을 올릴 수 있다.\n\n어센틱심볼로 상승하는 스탯은 스탯 % 증가 효과를 받지 않는다.",
-      symbol_force: "100",
-      symbol_level: 10,
-      symbol_str: "1104",
-      symbol_dex: "1104",
-      symbol_int: "0",
-      symbol_luk: "1104",
-      symbol_hp: "0",
-      symbol_growth_count: 1100,
-      symbol_require_growth_count: 1100,
     },
   ],
 };
@@ -24615,27 +24726,28 @@ export const petData = {
 };
 
 export const VskillData = {
-  date: "2024-02-07T00:00+09:00",
-  character_class: "신궁",
+  date: "2024-02-09T00:00+09:00",
+  character_class: "에반",
   character_skill_grade: "5",
   character_skill: [
     {
-      skill_name: "로프 커넥트",
+      skill_name: "쓸만한 샤프 아이즈",
       skill_description:
-        "[마스터 레벨 : 25]\r\n하늘 높이 로프를 던져 빠르게 이동한다.",
-      skill_level: 18,
+        "[마스터 레벨 : 25]\r\n적의 약점을 찾아 치명상을 입힐 수 있는 능력을 자신에게 부여한다. 샤프 아이즈와 중복 사용되지 않는다.",
+      skill_level: 19,
       skill_effect:
-        "올라가는 도중에 스킬키를 다시 누르면 캔슬가능\n재사용 대기시간 3초\n[패시브 효과 : 올스탯 18 증가]",
+        "최대 HP의 5% 소비, 237초 동안 크리티컬 확률 10%, 크리티컬 데미지 8% 증가\n재사용 대기시간 180초\n[패시브 효과 : 올스탯 4 증가]",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMA.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMC.png",
     },
+
     {
       skill_name: "쓸만한 컴뱃 오더스",
       skill_description:
         "[마스터 레벨 : 25]\r\n일정 시간 동안 자신의 모든 스킬 레벨을 증가시켜준다. 4차 스킬에 한해 마스터 레벨 이상으로 증가시킬 수 있으며 그 외 스킬은 마스터 레벨까지만 올려줄 수 있다.\n예외적으로 일부 특별한 스킬과 초보자 스킬, 컴뱃 오더스, 쓸만한 컴뱃 오더스, 하이퍼 스킬, 5차 스킬, 6차 스킬의 스킬 레벨은 올려줄 수 없다.\n컴뱃 오더스와 중복 사용되지 않는다.",
-      skill_level: 6,
+      skill_level: 8,
       skill_effect:
-        "최대 HP의 5% 소비, 198초 동안 모든 스킬 레벨 1 증가\n재사용 대기시간 180초\n[패시브 효과 : 상태 이상 내성 2 증가]",
+        "최대 HP의 5% 소비, 204초 동안 모든 스킬 레벨 1 증가\n재사용 대기시간 180초\n[패시브 효과 : 상태 이상 내성 2 증가]",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBME.png",
     },
@@ -24643,21 +24755,11 @@ export const VskillData = {
       skill_name: "쓸만한 어드밴스드 블레스",
       skill_description:
         "[마스터 레벨 : 25]\r\n일정 시간 동안 자신의 공격력, 마력, 방어력, 최대 HP, 최대 MP를 크게 높여준다. 블레스, 어드밴스드 블레스를 제외한 다른 모든 버프 스킬과 중복으로 사용할 수 있다.",
-      skill_level: 1,
+      skill_level: 6,
       skill_effect:
-        "최대 HP의 5% 소비, 183초 동안 공격력 20, 마력 20, 방어력 425, 최대 HP 475, 최대 MP 475 증가\n재사용 대기시간 180초",
+        "최대 HP의 5% 소비, 198초 동안 공격력 20, 마력 20, 방어력 425, 최대 HP 475, 최대 MP 475 증가\n재사용 대기시간 180초",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMF.png",
-    },
-    {
-      skill_name: "쓸만한 윈드 부스터",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n일정 시간 동안 자신의 공격 속도를 1단계 추가 증가시킨다. 기존 부스터와 중복해서 사용할 수 있으며 윈드 부스터와 중복 사용되지 않는다.",
-      skill_level: 1,
-      skill_effect:
-        "최대 HP의 5% 소비, 183초 동안 공격 속도 증가\n재사용 대기시간 180초\n[패시브 효과 : 올스탯 1 증가]",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMG.png",
     },
     {
       skill_name: "블링크",
@@ -24673,28 +24775,19 @@ export const VskillData = {
       skill_name: "에르다 노바",
       skill_description:
         "[마스터 레벨 : 25]\r\n자신과 주변의 에르다를 모은 후 폭발시켜 적을 공격한다. 공격을 받은 적은 체내의 에르다가 흐트러져 행동 불가 상태가 된다. 공격 무시 및 공격 반사 상태의 적에게도 피해를 입힐 수 있다.",
-      skill_level: 29,
+      skill_level: 20,
       skill_effect:
-        "최대 HP의 15% 소비, 최대 10명의 적을 324% 데미지로 5번 공격하고 10초 동안 행동 불가 상태\n에르다 노바로 적에게 준 데미지에 따라 행동 불가 지속시간 최대 100% 증가\n재사용 대기시간 104초",
+        "최대 HP의 15% 소비, 최대 10명의 적을 270% 데미지로 5번 공격하고 10초 동안 행동 불가 상태\n에르다 노바로 적에게 준 데미지에 따라 행동 불가 지속시간 최대 100% 증가\n재사용 대기시간 140초",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMI.png",
-    },
-    {
-      skill_name: "에르다의 의지",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n정신을 집중하여 상태 이상으로부터 벗어난다. 사용 후 3초 동안 상태 이상 면역. 단, 일부 상태 이상 효과에는 적용되지 않는다.",
-      skill_level: 6,
-      skill_effect: "최대 HP의 5% 소비, 재사용 대기시간 450초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMJ.png",
     },
     {
       skill_name: "쓸만한 홀리 심볼",
       skill_description:
         "[마스터 레벨 : 25]\r\n일정 시간 동안 몬스터를 사냥할 때 더 많은 경험치와 아이템을 획득할 수 있다. 홀리 심볼과 중복 사용되지 않는다.",
-      skill_level: 27,
+      skill_level: 30,
       skill_effect:
-        "HP 3310 소비, 261초 동안 획득 경험치 33%, 드롭률 23% 증가\n재사용 대기시간 180초",
+        "HP 3400 소비, 270초 동안 획득 경험치 35%, 드롭률 24% 증가\n재사용 대기시간 180초",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBOA.png",
     },
@@ -24702,29 +24795,29 @@ export const VskillData = {
       skill_name: "에르다 샤워",
       skill_description:
         "[마스터 레벨 : 25]\r\n응축되어 있는 에르다를 뿜어내어 주변 적을 공격한다.\n아래 방향키와 함께 스킬 사용 시 순수한 에르다가 고여있는 오브제인 에르다 파운틴을 소환할 수 있다.\n커스텀 커맨드를 사용하면 방향키 입력 없이 스킬 키만으로 에르다 파운틴을 소환할 수 있다.\n커스텀 커맨드 온오프 : 마우스 우클릭",
-      skill_level: 30,
+      skill_level: 25,
       skill_effect:
-        "HP 3000 소비\n에르다 샤워\n최대 15명의 적을 900%의 데미지로 6번 공격, 공격 후 에르다를 흡수하여 공격한 적마다 에르다 샤워의 재사용 대기시간 2초 감소\n재사용 대기시간 40초\n에르다 파운틴\n60초 동안 오브제 소환, 오브제가 소환된 맵에서 적을 처치할 때마다 적에서 방출된 에르다가 오브제 주위로 응집\n12명 이상 처치 시 모인 에르다가 방출되어 최대 10명의 적을 900%의 데미지로 4번 공격\n재사용 대기시간 60초\n에르다 샤워와 에르다 파운틴은 재사용 대기시간을 공유",
+        "HP 3000 소비\n에르다 샤워\n최대 15명의 적을 825%의 데미지로 6번 공격, 공격 후 에르다를 흡수하여 공격한 적마다 에르다 샤워의 재사용 대기시간 2초 감소\n재사용 대기시간 40초\n에르다 파운틴\n60초 동안 오브제 소환, 오브제가 소환된 맵에서 적을 처치할 때마다 적에서 방출된 에르다가 오브제 주위로 응집\n12명 이상 처치 시 모인 에르다가 방출되어 최대 10명의 적을 825%의 데미지로 4번 공격\n재사용 대기시간 60초\n에르다 샤워와 에르다 파운틴은 재사용 대기시간을 공유",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBPG.png",
     },
     {
-      skill_name: "이볼브",
+      skill_name: "프리드의 가호",
       skill_description:
-        "[마스터 레벨 : 25]\r\n신비한 힘으로 피닉스, 프리져, 레이븐을 일정 시간 강화시킨다. 피닉스, 프리져, 레이븐 중 하나가 소환되어 있을 때만 사용 가능하다.",
-      skill_level: 25,
+        "[마스터 레벨 : 25]\r\n영웅 프리드가 친구들을 위해 남긴 힘을 얻는다.",
+      skill_level: 30,
       skill_effect:
-        "MP 800 소비, 40초 동안 강화되어 최대 10명의 적을 825%의 데미지로 7번 공격\n재사용 대기시간 108초",
+        "MP 250 소비, 사용 시 30초 동안 지속되고 최대 6번 중첩 가능한 버프를 걸며 중첩마다 이전 중첩 효과 및 새로운 효과를 얻음\n1중첩 : 재사용 대기시간 초기화의 효과를 받지 않는 스킬을 제외한 스킬의 재사용 대기시간이 10% 더 빠르게 감소\n2중첩 : 상태 이상 내성 25 증가\n3중첩 : 올스탯 55 증가\n4중첩 : 공격력/마력 25 증가\n5중첩 : 보스 몬스터 공격 시 데미지 25% 증가\n6중첩 : 지속시간 동안 무적\n재사용 대기시간 25초, 중첩을 갱신하지 못하고 캐릭터 사망을 포함해 지속시간이 끝나거나 최대 중첩이 되면 재사용 대기시간 240초로 적용",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBNC.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBOE.png",
     },
     {
       skill_name: "스파이더 인 미러",
       skill_description:
         "[마스터 레벨 : 25]\r\n윌의 에르다로 공간을 붕괴시켜 거울 세계와 현실을 연결한 후 거울 속의 거미를 일정 시간 현실에 구현한다. 거울 속의 거미는 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.",
-      skill_level: 6,
+      skill_level: 30,
       skill_effect:
-        "최대 HP의 15% 소비\n공간 붕괴 : 최대 15명의 적에게 558%의 데미지로 15번 공격한 후 거울 속의 거미를 소환\n거울 속의 거미 : 50초 동안 지속되며 일정 시간마다 공격 상태에 돌입, 공격 상태 동안 217%의 데미지로 8번 공격하는 거미 다리를 10회 사용, 거미 다리가 한명의 적을 5번 연속 공격할 경우 공격 상태 즉시 종료, 공격 상태 종료 후 재돌입 대기시간 3초\n재사용 대기시간 : 250초",
+        "최대 HP의 15% 소비\n공간 붕괴 : 최대 15명의 적에게 990%의 데미지로 15번 공격한 후 거울 속의 거미를 소환\n거울 속의 거미 : 50초 동안 지속되며 일정 시간마다 공격 상태에 돌입, 공격 상태 동안 385%의 데미지로 8번 공격하는 거미 다리를 10회 사용, 거미 다리가 한명의 적을 5번 연속 공격할 경우 공격 상태 즉시 종료, 공격 상태 종료 후 재돌입 대기시간 3초\n재사용 대기시간 : 250초",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBPJ.png",
     },
@@ -24732,9 +24825,9 @@ export const VskillData = {
       skill_name: "메이플월드 여신의 축복",
       skill_description:
         "[마스터 레벨 : 25]\r\n메이플월드 여신의 축복이 깃들어 모든 스탯과 데미지가 증가된다. 메이플 용사, 시그너스 나이츠, 노바의 용사, 레프의 용사, 이계의 용사, 아니마의 용사, 륀느의 가호 중 1개의 스킬이 적용된 상태에서만 사용가능하다. 재사용 대기시간 감소 효과를 받는다.",
-      skill_level: 25,
+      skill_level: 30,
       skill_effect:
-        "MP 500 소비, 60초 동안 메이플 용사류 스킬로 증가하는 모든 능력치의 350% 추가 증가, 데미지 17% 증가\n메이플월드 여신의 축복은 180초마다 준비되며 최대 2번까지 축복 가능",
+        "MP 500 소비, 60초 동안 메이플 용사류 스킬로 증가하는 모든 능력치의 400% 추가 증가, 데미지 20% 증가\n메이플월드 여신의 축복은 180초마다 준비되며 최대 2번까지 축복 가능",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBIC.png",
     },
@@ -24742,287 +24835,2229 @@ export const VskillData = {
       skill_name: "크레스트 오브 더 솔라",
       skill_description:
         "[마스터 레벨 : 25]\r\n미트라의 힘으로 태양의 열기를 방출한 후 불꽃의 분노를 현실에 구현한다. 불꽃의 문양은 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.",
-      skill_level: 6,
+      skill_level: 30,
       skill_effect:
-        "최대 HP의 15% 소비\n미트라의 불꽃 : 최대 15명의 적에게 930%의 데미지로 12번 공격한 후 불꽃의 문양을 소환\n불꽃의 문양 : 51초 동안 유지되며 2.1초 마다 최대 2명의 적을 248%로 6번 공격, 1명을 공격할 경우 341%로 공격\n재사용 대기시간 : 250초",
+        "최대 HP의 15% 소비\n미트라의 불꽃 : 최대 15명의 적에게 1650%의 데미지로 12번 공격한 후 불꽃의 문양을 소환\n불꽃의 문양 : 51초 동안 유지되며 2.1초 마다 최대 2명의 적을 440%로 6번 공격, 1명을 공격할 경우 605%로 공격\n재사용 대기시간 : 250초",
       skill_icon:
         "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBJJ.png",
     },
     {
-      skill_name: "파이널 어택 : 석궁 강화",
+      skill_name: "서클 오브 마나 강화",
       skill_description:
-        "[마스터 레벨 : 50]\r\n파이널 어택 : 석궁을 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+        "[마스터 레벨 : 50]\r\n서클 오브 마나I~IV, 스파이럴 오브 마나를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
       skill_level: 60,
-      skill_effect: "파이널 어택 : 석궁의 최종 데미지 240% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBED.png",
-    },
-    {
-      skill_name: "볼트 스위프트/프리져 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n볼트 스위프트/프리져를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 60,
-      skill_effect: "볼트 스위프트/프리져의 최종 데미지 180% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBEG.png",
-    },
-    {
-      skill_name: "리트리트 샷 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n리트리트 샷을 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 60,
-      skill_effect: "리트리트 샷의 최종 데미지 180% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBEJ.png",
-    },
-    {
-      skill_name: "피어싱/인핸스 피어싱 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n피어싱/인핸스 피어싱을 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 60,
-      skill_effect: "피어싱/인핸스 피어싱의 최종 데미지 120% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBFA.png",
-    },
-    {
-      skill_name: "스나이핑/인핸스 스나이핑 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n스나이핑/인핸스 스나이핑을 강화한다.\n\n20레벨 : 일반 몬스터 공격 시 데미지 10% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 60,
-      skill_effect: "스나이핑/인핸스 스나이핑의 최종 데미지 120% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBFB.png",
-    },
-    {
-      skill_name: "롱 레인지 트루샷/애로우 일루전 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n롱 레인지 트루샷/애로우 일루전을 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 60,
-      skill_effect: "롱 레인지 트루샷/애로우 일루전의 최종 데미지 120% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKBFC.png",
-    },
-    {
-      skill_name: "가이디드 애로우",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n주변의 적을 추적하여 공격하는 영혼의 화살을 소환한다. 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.\n스킬 사용 시 효과가 활성화되고 재사용 시 비활성화되는 온오프 스킬",
-      skill_level: 17,
       skill_effect:
-        "MP 350 소비, 자신의 주위에 영혼의 화살을 생성, 화살은 적을 공격하면 주변의 적 1명을 672%의 데미지로 공격. 일반 몬스터 공격 시 데미지 20% 증가",
+        "서클 오브 마나I~IV, 스파이럴 오브 마나의 최종 데미지 120% 증가",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBMA.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJA.png",
     },
     {
-      skill_name: "크리티컬 리인포스",
+      skill_name: "드래곤 스파킹 강화",
       skill_description:
-        "[마스터 레벨 : 25]\r\n치명상을 입힐 때 적의 약점을 찾아 더 강력한 피해를 입히게 한다.",
+        "[마스터 레벨 : 50]\r\n드래곤 스파킹/어드밴스드 드래곤 스파킹을 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect:
+        "드래곤 스파킹/어드밴스드 드래곤 스파킹의 최종 데미지 180% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJB.png",
+    },
+    {
+      skill_name: "서클 오브 윈드 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n서클 오브 윈드, 스위프트 오브 윈드, 브레스 오브 윈드를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가(스위프트 오브 윈드 제외)\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect:
+        "서클 오브 윈드, 스위프트 오브 윈드, 브레스 오브 윈드의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJC.png",
+    },
+    {
+      skill_name: "드래곤 스위프트 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n드래곤 스위프트를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "드래곤 스위프트의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJD.png",
+    },
+    {
+      skill_name: "서클 오브 썬더 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n서클 오브 썬더, 스위프트 오브 썬더, 다이브 오브 썬더를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect:
+        "서클 오브 썬더, 스위프트 오브 썬더, 다이브 오브 썬더의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJF.png",
+    },
+    {
+      skill_name: "드래곤 다이브 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n드래곤 다이브를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "드래곤 다이브의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJG.png",
+    },
+    {
+      skill_name: "마법 잔해 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n마법 잔해/강화된 마법 잔해를 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "마법 잔해/강화된 마법 잔해의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDJJ.png",
+    },
+    {
+      skill_name: "서클 오브 어스 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n서클 오브 어스, 브레스 오브 어스, 다이브 오브 어스를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect:
+        "서클 오브 어스, 브레스 오브 어스, 다이브 오브 어스의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDKA.png",
+    },
+    {
+      skill_name: "드래곤 브레스 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n드래곤 브레스, 브레스-돌아와!를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가(브레스-돌아와! 제외)\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "드래곤 브레스, 브레스-돌아와!의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDKB.png",
+    },
+    {
+      skill_name: "다크 포그 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n다크 포그를 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "다크 포그의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDKG.png",
+    },
+    {
+      skill_name: "드래곤 마스터 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n드래곤 마스터를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "드래곤 마스터의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDKH.png",
+    },
+    {
+      skill_name: "서먼 오닉스 드래곤 강화",
+      skill_description:
+        "[마스터 레벨 : 50]\r\n서먼 오닉스 드래곤을 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
+      skill_level: 60,
+      skill_effect: "서먼 오닉스 드래곤의 최종 데미지 120% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKDKI.png",
+    },
+    {
+      skill_name: "오버로드 마나",
+      skill_description:
+        "[마스터 레벨 : 25]\r\n몸 속을 흐르는 마나를 과부하시켜 공격의 위력을 증가시킨다.",
       skill_level: 30,
       skill_effect:
-        "MP 500 소비, 30초 동안 크리티컬 확률이 100%를 초과할 수 있게 되며 크리티컬 확률의 50% 만큼 크리티컬 데미지 증가\n공격 스킬의 추가 크리티컬 확률은 반영되지 않음\n재사용 대기시간 120초",
+        "일부 스킬을 제외한 자신의 공격 스킬 사용 시 최대 MP의 2%를 추가로 사용하여 최종 데미지 8% 증가\nMP가 없는 직업의 경우 최대 HP의 0.3% 사용\n스킬 사용 시 효과가 활성화되고 재사용 시 비활성화되는 온오프 스킬\n재사용 대기시간 30초",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBOD.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBMA.png",
     },
     {
-      skill_name: "트루 스나이핑",
+      skill_name: "에테리얼 폼",
       skill_description:
-        "[마스터 레벨 : 25]\r\n적을 정확하게 노려 저격한다. 마우스를 조작하여 공격할 수 있고 우클릭 시 즉시 해제된다. 적에게 적중할 때마다 포커스 온 버프를 획득한다. 공격 무시 및 공격 반사 상태의 적에게도 피해를 입힐 수 있다.",
+        "[마스터 레벨 : 25]\r\n잠시 다른 차원으로 이동하여 피해를 줄인다. 에테리얼 폼 상태에서 스킬을 다시 사용하면 원래 차원으로 돌아올 수 있다. 에테리얼 폼 상태에서는 다른 스킬을 사용할 수 없다.",
+      skill_level: 9,
+      skill_effect:
+        "HP 1000 소비, 3초 동안 적의 공격을 받았다면 적의 어떠한 공격에도 밀려나지 않고 해당 공격의 피해 대신 MP 9190 소비, MP가 없는 직업군의 경우 HP 2230 소비\n재사용 대기시간 60초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBKA.png",
+    },
+    {
+      skill_name: "엘리멘탈 블래스트",
+      skill_description:
+        "[마스터 레벨 : 25]\r\n여러 속성의 강력한 마법을 연달아 사용한다. 각각의 공격을 명중시키면 일정 시간 새로운 힘을 얻을 수 있다. 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.",
       skill_level: 30,
       skill_effect:
-        "MP 1000 소비, 단 한 번의 저격으로 최대 12명의 적을 1850%의 데미지로 14번 크리티컬 공격하는 화살 4개 다발 사격\n조준경의 중앙에 가까울수록 데미지가 20%씩 증가하여 최대 100%까지 증가, 몬스터 방어율 100% 추가 무시\n최대 2초 동안 조준가능하며 해당 시간 및 스킬 종료 후 1초 동안 무적\n적중할 때마다 포커스 온 15초 획득\n재사용 대기시간 60초",
+        "MP 1000 소비, 최대 15명의 적을 1705%의 데미지로 8번 공격하는 마법을 4연속 사용, 추가 크리티컬 확률 100%\n공격 후 명중한 속성마다 10초 동안 최종 데미지 5% 증가\n재사용 대기시간 60초\n미르 스킬을 사용한 후 앉은 상태에서 엘리멘탈 블래스트를 사용하면 엘리멘탈 블래스트가 발동되지 않고 융합 스킬을 발동할 수 있지만 엘리멘탈 블래스트에 재사용 대기시간이 적용되고 소비 MP가 2배로 증가",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBMG.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBNC.png",
     },
     {
-      skill_name: "스플릿 애로우",
+      skill_name: "드래곤 브레이크",
       skill_description:
-        "[마스터 레벨 : 25]\r\n화살에 신비로운 기운을 불어넣어 적에게 도착하는 순간 수 없이 많은 화살들로 갈라지게 만든다. 피어싱으로 발동되는 화살 조각은 갈라지지 않는다.",
+        "[마스터 레벨 : 25]\r\n[미르 스킬] 미르가 강인한 드래곤의 육체를 이용한 여러 기술로 전방의 적을 유린한다. 드래곤 브레이크는 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.\n미르 스킬과 융합 스킬은 공격 속도 증가의 효과를 받지 않는다.",
       skill_level: 30,
       skill_effect:
-        "MP 800 소비, 72초 동안 피어싱, 스나이핑, 인핸스 피어싱, 인핸스 스나이핑, 얼티밋 스나이핑, 파이널 에임, 리피팅 크로스보우 카트리지 사용 후 풀버스트 샷을 적중시켰을 때 화살이 갈라져 최대 10명의 적을 1320% 데미지로 5번 추가 공격\n몬스터 방어율 25% 무시\n재사용 대기시간 120초",
+        "MP 1000 소비, 최대 12명의 적을 1265%의 데미지로 7번 공격, 2.5초 동안 지속\n재사용 대기시간 20초",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBNF.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBIG.png",
     },
     {
-      skill_name: "차지드 애로우",
+      skill_name: "임페리얼 브레스",
       skill_description:
-        "[마스터 레벨 : 25]\r\n온 정신을 집중하여 강력한 영혼의 화살을 날려보낸다.\n키다운을 통해 집중이 가능하고 집중 완료 후 사용하면 강화된 차지드 애로우가 발동된다. 집중 중 다른 스킬을 사용해도 끊기지 않는다.\n잠시라도 집중했다면 스나이핑, 피어싱, 롱 레인지 트루샷, 리피팅 크로스보우 카트리지 사용 후 풀버스트 샷 사용 중 차지드 애로우를 발동시킬 수 있다. 단, 풀버스트 샷은 화살을 모두 발사한 후에만 가능하다.\n추가로 적에게 적중할 경우 포커스 온 버프를 획득한다\n차지드 애로우에는 파이널 어택이 적용되지 않는다.",
-      skill_level: 21,
-      skill_effect:
-        "MP 750 소비, 최대 10명의 적을 920%의 데미지로 10번 공격. 집중 완료 후에는 1380%의 데미지로 공격\n몬스터 방어율 50% 무시, 추가 크리티컬 확률 100%\n최대 집중 유지 시간 10초\n재사용 대기시간 10초",
+        "[마스터 레벨 : 25]\r\n[융합 스킬] 미르가 드래곤 브레이크 공격 중 에반의 마법과 공명해 급성장한 후 일정 시간 여러 속성을 혼합한 기운을 뿜어낸다. 임페리얼 브레스는 드래곤 브레이크의 스킬 레벨에 따라 함께 성장하며, 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.\n 미르가 드래곤 브레이크 사용 중, 에반이 엘리멘탈 블래스트 마법을 사용하면 발동된다.",
+      skill_level: 30,
+      skill_effect: "최대 12명의 적에게 1320%의 데미지로 7번 공격, 4초 지속",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBOF.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFOBIG.png",
     },
     {
-      skill_name: "리피팅 크로스보우 카트리지",
+      skill_name: "브레이크-돌아와!",
       skill_description:
-        "[마스터 레벨 : 25]\r\n한 번에 화살을 다수 발사할 수 있는 특수 카트리지를 사용한다. 스킬을 다시 사용하여 카트리지를 사용하는 풀버스트 샷을 사용할 수 있다. 풀버스트 샷은 범위 내 목표한 적을 향해 유도되며 최대 HP가 높은 보스 몬스터를 우선 공격한다. 풀버스트 샷 적중 시 포커스 온 버프를 획득할 수 있다.",
+        "[마스터 레벨 : 25]\r\n[융합 스킬] 미르가 즉시 공격을 중단하고 에반의 곁으로 복귀한다. 문장의 힘으로 주변 적에게 피해를 입히는 무의 영역을 생성한다.\n브레이크-돌아와! 는 드래곤 브레이크의 스킬 레벨에 따라 함께 성장한다.\n 미르가 드래곤 브레이크, 임페리얼 브레스를 시전 중, 에반이 [돌아와]를 사용하면 발동된다.",
       skill_level: 30,
       skill_effect:
-        "MP 750 소비, 60초 동안 카트리지 8개 사용 가능\n풀버스트 샷 : MP 150 소비, 카트리지 1개 소비, 825%의 데미지로 9번 공격하는 화살 4개 발사, 방어율 25% 추가 무시, 추가 크리티컬 확률 100%\n재사용 대기시간 : 120초",
+        "최대 12명의 적에게 330%의 데미지로 3번 공격하는 무의 영역 생성, 5초 지속",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLEPBJF.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFOBJB.png",
+    },
+    {
+      skill_name: "조디악 레이",
+      skill_description:
+        "[마스터 레벨 : 25]\r\n마력을 충전하여 성좌의 힘을 해방시키는 마법진을 설치한다. 스파이럴 오브 마나를 제외한 에반의 마법을 적중시키면 마법진에 마력이 충전되고 가득 차면 기동한다. 공격 반사 상태의 적을 공격해도 피해를 입지 않는다. 엘리멘탈 블래스트는 첫 공격만 속성이 적용된다.",
+      skill_level: 30,
+      skill_effect:
+        "MP 1000 소비, 12초 동안 마법진 설치, 마력이 25 충전되면 해방이 시작되어 12초 동안 최대 12명의 적을 1045%의 데미지로 8번 지속 공격, 몬스터 방어율 100% 추가 무시\n속성이 있는 스킬 적중 시 마력이 3 충전되지만 스킬 당 1회만 충전 가능, 속성이 없는 스킬 적중 시 마력이 1 충전되고 제한 없음\n재사용 대기시간 180초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBLD.png",
+    },
+    {
+      skill_name: "스파이럴 오브 마나",
+      skill_description:
+        "[마스터 레벨 : 25]\r\n서클 오브 마나의 마법진을 응용해 마나체가 스스로 회오리처럼 휘몰아치게 한다. 서클 오브 마나Ⅳ, VI 사용 중 스킬을 사용하여 발동 가능하다.\n스파이럴 오브 마나는 1개만 존재할 수 있고 지속 중 서클 오브 마나Ⅳ, VI를 사용하면 일정 시간 스파이럴 오브 마나의 공격 횟수가 감소한다. 스파이럴 오브 마나는 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.\n커스텀 커맨드를 사용하면 서클 오브 마나IV, VI 사용 중 1타 발동 후 아래 방향키와 함께 서클 오브 마나를 한 번 더 사용하여 발동할 수 있다.\n커스텀 커맨드 온오프 : 마우스 우클릭\n필요 스킬 : 서클 오브 마나Ⅳ 30레벨 이상",
+      skill_level: 30,
+      skill_effect:
+        "MP 240 소비, 7초 동안 일정 간격마다 최대 6명의 적을 265%의 데미지로 6번 공격, 최대 16번까지 공격 가능\n서클 오브 마나Ⅳ, VI 사용 시 1초 동안 스파이럴 오브 마나의 공격 횟수 3번 감소\n재사용 대기시간 : 3.50초\n[패시브 효과 : 마력 35 증가]",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLFPBFF.png",
     },
   ],
 };
 
-export const VskillData2 = {
-  date: "2024-02-07T00:00+09:00",
-  character_class: "데몬어벤져",
-  character_skill_grade: "5",
+export const HskillData = {
+  date: "2024-02-09T00:00+09:00",
+  character_class: "아델",
+  character_skill_grade: "6",
   character_skill: [
     {
-      skill_name: "로프 커넥트",
+      skill_name: "디바이드 VI",
       skill_description:
-        "[마스터 레벨 : 25]\r\n하늘 높이 로프를 던져 빠르게 이동한다.",
-      skill_level: 3,
+        "[마스터 레벨 : 30]\r\n[트리거 스킬] 거대한 대검을 생성하여 전방의 적을 절단한다. 일정 시간마다 에테르의 기운을 받아 디바이드가 강화된다.\n필요 스킬 : 디바이드 30레벨 이상",
+      skill_level: 30,
       skill_effect:
-        "올라가는 도중에 스킬키를 다시 누르면 캔슬가능\n재사용 대기시간 3초\n[패시브 효과 : 올스탯 3 증가]",
+        "MP 55 소비, 최대 7명의 적을 750%의 데미지로 6번 공격\n 6초마다 다음 공격 강화된 디바이드로 대체 \n [강화 디바이드] : 최대 8명의 적을 570%의 데미지로 7번 공격하는 참격 3회 발생",
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMA.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPBMA.png",
+    },
+
+    {
+      skill_name: "샤드 VI",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n적을 감지하여 날아가는 마력 조각을 생성한다. 공격 반사 상태의 적을 공격해도 피해를 입지 않는다.",
+      skill_level: 30,
+      skill_effect:
+        "MP 30 소비, 720% 데미지로 3번 공격하는 마력 조각 5개 생성\n재사용 대기시간 6초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPBMC.png",
     },
     {
-      skill_name: "쓸만한 샤프 아이즈",
+      skill_name: "원더 VI",
       skill_description:
-        "[마스터 레벨 : 25]\r\n적의 약점을 찾아 치명상을 입힐 수 있는 능력을 자신에게 부여한다. 샤프 아이즈와 중복 사용되지 않는다.",
+        "[마스터 레벨 : 30]\r\n공격 시 샤드가 자동 생성된다.\n스킬 사용 시 효과가 활성화되고 재사용 시 비활성화되는 온오프 스킬",
+      skill_level: 30,
+      skill_effect:
+        "트리거 스킬 적중 시 6초 마다 생성, 생성 시 MP 30 소모\n재사용 대기시간 0.50초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPBMD.png",
+    },
+
+    {
+      skill_name: "오더 VI",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n크리에이션으로 창조한 에테르 소드에 명령을 내려 적을 추적하게 한다. 크리에이션으로 창조한 에테르 소드가 있어야 사용할 수 있다.\n에테르 소드는 아델 근처에서만 움직이며 멀어지면 근처로 이동하여 새로운 적을 추적한다.\n공격 반사 상태의 적을 공격해도 피해를 입지 않고 아델이 전투 상태일 때만 적을 추적한다.\n추적 중인 에테르 소드가 소멸할 때 남은 지속시간에 비례해 에테르를 획득할 수 있다.\n필요 스킬 : 오더 20레벨 이상",
+      skill_level: 19,
+      skill_effect:
+        "MP 49, 에테르 100 소비\n각 에테르 소드는 54초 동안 존재하며 646%의 데미지로 2번 공격\n최대 6자루까지 명령 가능, 최대 개수를 초과해서 명령 시 지속시간이 가장 적게 남은 에테르 소드가 소멸\n공격 적중 시 15% 확률로 에테르 결정 생성\n재사용 대기시간 0.50초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPBME.png",
+    },
+    {
+      skill_name: "트레드 VI",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n[트리거 스킬] 전신에 마력을 휘감아 급강하한다.\n필요 스킬 : 트레드 20레벨 이상",
+      skill_level: 19,
+      skill_effect:
+        "MP 59 소비 \n공중에서 사용 시 수직으로 하강하며 최대 6명의 적을 727%의 데미지로 6번 공격\n재사용 대기시간 1.50초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPBMF.png",
+    },
+    {
+      skill_name: "마에스트로",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n무한한 에테르 소드를 지휘하여 전장을 휩쓴다.\n\n10레벨 : 몬스터 방어율 무시 20% 증가\n20레벨 : 보스 몬스터 공격 시 데미지 20% 증가\n30레벨 : 몬스터 방어율 무시 30% 증가, 보스 몬스터 공격 시 데미지 30% 증가",
+      skill_level: 30,
+      skill_effect:
+        "MP 1200 소비, 시전 동작 중 무적\n에테르 소드를 소환하며 최대 15명의 적을 1370%의 데미지로 10번 공격하는 참격이 29회 발생\n마지막으로 에테르 소드를 조종하여 최대 15명의 적을 1370%의 데미지로 14번 공격하는 마무리 일격 57회 발생\n재사용 대기시간 360초 ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKDKDPEMA.png",
+    },
+    {
+      skill_name: "솔 야누스",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n솔 에르다가 지닌 근원의 힘을 두 개의 모습으로 끌어낸다.\n스킬 사용 후 방향키를 입력하여 솔 야누스 : 새벽 또는 솔 야누스 : 황혼을 선택할 수 있다.\n보스 전투맵에서는 솔 야누스의 모든 모습을 사용할 수 없다.",
+      skill_level: 4,
+      skill_effect:
+        "HP 500 소비, 솔 야누스의 모습을 결정\n재사용 대기시간 3초\n[패시브 효과 : 경험치 획득량 16% 증가] ",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHPBMA.png",
+    },
+    {
+      skill_name: "솔 야누스 : 새벽",
+      skill_description:
+        "[마스터 레벨 : 30]\r\n솔 에르다가 끊임없이 창조되고 소멸하는 순환의 고리를 소환한다. 지속적으로 변화하는 솔 에르다의 흐름이 주변의 적을 공격한다.\n순환의 고리를 소환한 개수가 많아질 때마다 고리 하나에서 발생하는 솔 에르다의 흐름은 축소된다. 순환의 고리는 공중에도 소환할 수 있으며 이전에 소환한 순환의 고리와 너무 가깝거나 먼 곳에는 소환할 수 없다.\n순환의 고리는 공격 반사 상태의 적을 공격해도 피해를 입히지 않는다.\n\n30레벨 : 일반 몬스터 데미지 30% 증가",
+      skill_level: 4,
+      skill_effect:
+        "최대 HP의 10% 소비\n60초 동안 순환의 고리 소환, 최대 1개까지 소환 가능\n순환의 고리 : 최대 10명의 적을 430%의 데미지로 6번 공격\n재사용 대기시간 60초",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHPBMC.png",
+    },
+    {
+      skill_name: "루인 강화",
+      skill_description: "[마스터 레벨 : 30]\r\n루인을 강화한다.",
+      skill_level: 7,
+      skill_effect: "루인의 최종 데미지 17% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHKAKA.png",
+    },
+    {
+      skill_name: "인피니트 강화",
+      skill_description: "[마스터 레벨 : 30]\r\n인피니트를 강화한다.",
+      skill_level: 30,
+      skill_effect: "인피니트의 최종 데미지 60% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHKAKB.png",
+    },
+    {
+      skill_name: "리스토어 강화",
+      skill_description: "[마스터 레벨 : 30]\r\n리스토어를 강화한다.",
+      skill_level: 28,
+      skill_effect:
+        "리스토어의 최종 데미지 48% 증가, 지속 중 최종 데미지 10% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHKAKC.png",
+    },
+    {
+      skill_name: "스톰 강화",
+      skill_description: "[마스터 레벨 : 30]\r\n스톰을 강화한다.",
+      skill_level: 8,
+      skill_effect: "스톰의 최종 데미지 18% 증가",
+      skill_icon:
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLHKAKD.png",
+    },
+    {
+      skill_name: "HEXA 스탯",
+      skill_description:
+        "[마스터 레벨 : 1]\r\n솔 에르다의 힘을 받아들여 능력치가 상승한다.",
       skill_level: 1,
-      skill_effect:
-        "최대 HP의 5% 소비, 183초 동안 크리티컬 확률 10%, 크리티컬 데미지 8% 증가\n재사용 대기시간 180초\n[패시브 효과 : 올스탯 1 증가]",
+      skill_effect: null,
       skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMC.png",
-    },
-    {
-      skill_name: "쓸만한 하이퍼 바디",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n최대 HP와 최대 MP의 양이 증가한다. 하이퍼 바디와 중복 사용되지 않는다.",
-      skill_level: 1,
-      skill_effect:
-        "최대 HP의 5% 소비, 183초 동안 최대 HP 40%, 최대 MP 40% 증가\n재사용 대기시간 180초\n[패시브 효과 : 올스탯 1 증가]",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBMD.png",
-    },
-    {
-      skill_name: "에르다 샤워",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n응축되어 있는 에르다를 뿜어내어 주변 적을 공격한다.\n아래 방향키와 함께 스킬 사용 시 순수한 에르다가 고여있는 오브제인 에르다 파운틴을 소환할 수 있다.\n커스텀 커맨드를 사용하면 방향키 입력 없이 스킬 키만으로 에르다 파운틴을 소환할 수 있다.\n커스텀 커맨드 온오프 : 마우스 우클릭",
-      skill_level: 6,
-      skill_effect:
-        "HP 3000 소비\n에르다 샤워\n최대 15명의 적을 540%의 데미지로 6번 공격, 공격 후 에르다를 흡수하여 공격한 적마다 에르다 샤워의 재사용 대기시간 2초 감소\n재사용 대기시간 40초\n에르다 파운틴\n60초 동안 오브제 소환, 오브제가 소환된 맵에서 적을 처치할 때마다 적에서 방출된 에르다가 오브제 주위로 응집\n12명 이상 처치 시 모인 에르다가 방출되어 최대 10명의 적을 540%의 데미지로 4번 공격\n재사용 대기시간 60초\n에르다 샤워와 에르다 파운틴은 재사용 대기시간을 공유",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBPG.png",
-    },
-    {
-      skill_name: "콜 마스테마",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n충실한 부하 마스테마를 소환하여 도움을 받는다. 마스테마는 공격 반사의 적을 공격해도 피해를 입지 않는다.",
-      skill_level: 2,
-      skill_effect:
-        "최대 HP의 4% 소비, 25초 동안 마스테마 소환\n재사용 대기시간 120초\n소환된 마스테마는 스스로의 판단으로 아래의 스킬 시전\n마스테마 클로우 : 최대 8명의 적을 540%의 데미지로 8번 공격, 재사용 대기시간 4초\n러블리 테리토리 : 6초 동안 최대 HP의 일정 비율로 피해를 입히는 공격을 포함한 피격 데미지 11%를 2회 감소시키는 버프 시전, 지속시간이 끝나거나 감소 횟수를 모두 소비하면 버프 소멸, 재사용 대기시간 10초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHPBND.png",
-    },
-    {
-      skill_name: "익시드 : 데몬 스트라이크 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n익시드 : 데몬 스트라이크를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 33,
-      skill_effect: "익시드 : 데몬 스트라이크의 최종 데미지 66% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFMF.png",
-    },
-    {
-      skill_name: "익시드 : 문라이트 슬래시 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n익시드 : 문라이트 슬래시를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 34,
-      skill_effect: "익시드 : 문라이트 슬래시의 최종 데미지 68% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFMH.png",
-    },
-    {
-      skill_name: "익시드 : 엑스큐션 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n익시드 : 엑스큐션을 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 37,
-      skill_effect: "익시드 : 엑스큐션의 최종 데미지 74% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFNA.png",
-    },
-    {
-      skill_name: "실드 체이싱 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n실드 체이싱을 강화한다.\n\n20레벨 : 크리티컬 확률 5% 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 39,
-      skill_effect: "실드 체이싱의 최종 데미지 78% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFNB.png",
-    },
-    {
-      skill_name: "사우전드 소드 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n사우전드 소드를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 36,
-      skill_effect: "사우전드 소드의 최종 데미지 72% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFNE.png",
-    },
-    {
-      skill_name: "인핸스드 익시드 강화",
-      skill_description:
-        "[마스터 레벨 : 50]\r\n인핸스드 익시드를 강화한다.\n\n20레벨 : 최대 공격 가능 대상 1 증가\n40레벨 : 몬스터 방어율 무시 20% 증가",
-      skill_level: 31,
-      skill_effect: "인핸스드 익시드의 최종 데미지 62% 증가",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLHKFEA.png",
-    },
-    {
-      skill_name: "오라 웨폰",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n생명력의 일부를 무기에 부여하여 강력한 힘을 발휘한다. 오라 파동은 공격 반사 상태의 적을 공격해도 피해를 입지 않는다. 재사용 대기시간 감소 효과를 받는다.",
-      skill_level: 3,
-      skill_effect:
-        "최대 HP의 10% 소비, 86초 동안 몬스터 방어율 무시 10%, 최종 데미지 1% 증가\n5초 마다 자신의 공격 스킬 사용 시 560%의 데미지로 최대 10명을 6번 공격하는 오라 파동 발사\n오라 웨폰은 180초마다 준비되며 최대 2번까지 준비 가능",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLGPBMA.png",
-    },
-    {
-      skill_name: "데몬 프렌지",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n끝없는 복수심에 자신의 몸을 태워 힘을 얻는다. 복수심이 마족의 피에 깃들어 표출되어 적을 공격한다. 타오르는 마족의 피는 공격 무시 및 공격 반사 상태의 적에게도 피해를 입힐 수 있다.",
-      skill_level: 25,
-      skill_effect:
-        "최대 HP의 20% 소비, 초당 HP 6000 소비, 회복 아이템 및 스킬의 회복량 최대 HP의 1%까지로 제한, 최대 HP의 일정 비율로 피해를 입히는 공격을 포함한 피격 데미지 30% 감소\n최대 HP 대비 소모된 HP 2% 당 최종 데미지 1% 증가하여 최대 20%까지 증가, 복수심에 타오르는 마족의 피가 주위를 맴돌며 최대 10명의 적을 일정 주기마다 765%로 3번 공격\n최대 HP의 30% 이하에서는 데몬 프렌지로 HP를 소모하지 않고 회복량 제한도 받지 않음\n재사용 시 스킬 비활성화\n재사용 대기시간 1초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLGPBNA.png",
-    },
-    {
-      skill_name: "블러드 피스트",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n마족의 피를 응축시킨 후 폭발하듯 퍼뜨려 주변 적을 공격한다. 스킬 사용 중에도 사용할 수 있고 공격으로 적을 해치우거나 보스 몬스터를 공격했을 경우 체력이 회복되고 데몬 프렌지의 회복량 감소 상태나 고스트파크를 제외한 특정한 회복 불가 상황에서도 회복 할 수 있다.",
-      skill_level: 3,
-      skill_effect:
-        "최대 HP의 3% 소비, 최대 8명의 적을 공격 812%의 데미지로 12번 공격, 공격 동작 중 최대 HP의 일정 비율로 피해를 입히는 공격을 포함한 피격 데미지 30% 감소\n최대 HP의 25% 회복, 추가 크리티컬 확률 100%, 몬스터 방어율 100% 추가 무시\n재사용 대기시간 12초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLGPBPI.png",
-    },
-    {
-      skill_name: "디멘션 소드",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n데스페라도의 힘을 증폭하여 다른 차원의 무형검을 현현 시킨다. 무형검이 회전할 때의 공격은 공격 반사 상태의 적에게도 피해를 입힌다.",
-      skill_level: 1,
-      skill_effect:
-        "최대 HP의 20% 소비, 40초 동안 3초 마다 최대 8명의 적을 962%의 데미지로 14번 공격하는 무형검 소환\n소환 중 스킬을 한 번 더 사용하면 남은 지속시간이 1/5이 되지만 무형검이 주위를 빠르게 회전하며 일정 시간마다 최대 8명의 적을 468%의 데미지로 8번 공격\n디멘션 소드의 모든 공격은 몬스터 방어율 100% 추가 무시\n재사용 대기시간 120초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLGPBFA.png",
-    },
-    {
-      skill_name: "레버넌트",
-      skill_description:
-        "[마스터 레벨 : 25]\r\n끝없는 분노로 인해 삶과 죽음의 경계를 넘은 망령이 된다.\n지속 중 피격 데미지로 인해 HP가 1 미만이 되지 않고 치명적인 상태이상에 걸리지 않으며 받았던 데미지가 분노로 저장된다. 저장된 분노는 가시로 표출되어 주변을 공격하지만 스킬 종료 후 쌓였던 분노로 인해 지속적으로 고통을 받게 된다.\n지속 중 스킬을 재사용해서 해제할 수 있고 분노의 가시는 공격 무시 및 공격 반사 상태의 적에게도 피해를 입힐 수 있으나 반사 피해를 무시하지 못한다.\n레버넌트 지속 중 및 분노로 인한 지속 피해를 받을 때 전투 상태가 유지된다.",
-      skill_level: 5,
-      skill_effect:
-        "최대 HP의 25% 소비, 15초 동안 지속\n익시드 스킬 사용 시 최대 5명의 적을 540%의 데미지로 12번 공격하는 분노의 가시 발동, 몬스터 방어율 30% 추가 무시, 재발동 대기시간 4초\n받은 피해를 최대 HP의 100%에 해당하는 수치까지 분노로 저장하고 저장량에 비례해 분노의 가시 재발동 대기시간 감소, 일정 시간마다 현재 쌓인 분노의 7% 감소\n스킬 종료 후 일정 간격마다 저장된 분노와 최대 HP의 1%에 해당하는 피해를 합쳐 25번에 나누어 받음, 해당 피해로 사망하지 않음\n재사용 대기시간 : 120초",
-      skill_icon:
-        "https://open.api.nexon.com/static/maplestory/SkillIcon/KBPCLGPANC.png",
+        "https://open.api.nexon.com/static/maplestory/SkillIcon/KAPCLAPBMA.png",
     },
   ],
 };
+
+export const equipPresetNull = [
+  {
+    item_equipment_part: "모자",
+    item_equipment_slot: "모자",
+    item_name: "하이네스 워리어헬름",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCIAHG.png",
+    item_description: null,
+    item_shape_name: "하이네스 워리어헬름",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPCIAHG.png",
+    item_gender: null,
+    item_total_option: {
+      str: "118",
+      dex: "65",
+      int: "32",
+      luk: "36",
+      max_hp: "820",
+      max_mp: "360",
+      attack_power: "3",
+      magic_power: "0",
+      armor: "697",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "10",
+      all_stat: "5",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "40",
+      dex: "40",
+      int: "0",
+      luk: "0",
+      max_hp: "360",
+      max_mp: "360",
+      attack_power: "2",
+      magic_power: "0",
+      armor: "390",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "10",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 150,
+    },
+    potential_option_grade: "에픽",
+    additional_potential_option_grade: null,
+    potential_option_1: "최대 HP : +6%",
+    potential_option_2: "STR : +6%",
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "20",
+      dex: "0",
+      int: "32",
+      luk: "36",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "5",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "11",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "33",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "330",
+      max_mp: "0",
+      attack_power: "1",
+      magic_power: "0",
+      armor: "33",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "10",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "25",
+      dex: "25",
+      int: "0",
+      luk: "0",
+      max_hp: "130",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "274",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "상의",
+    item_equipment_slot: "상의",
+    item_name: "이글아이 워리어아머",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPGJFLF.png",
+    item_description: null,
+    item_shape_name: "이글아이 워리어아머",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPGJFLF.png",
+    item_gender: null,
+    item_total_option: {
+      str: "96",
+      dex: "75",
+      int: "16",
+      luk: "16",
+      max_hp: "340",
+      max_mp: "0",
+      attack_power: "3",
+      magic_power: "0",
+      armor: "423",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "5",
+      all_stat: "4",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "30",
+      dex: "30",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "0",
+      armor: "210",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "5",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 150,
+    },
+    potential_option_grade: "에픽",
+    additional_potential_option_grade: null,
+    potential_option_1: "STR : +6%",
+    potential_option_2: "올스탯 : +5",
+    potential_option_3: "STR : +3%",
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "20",
+      dex: "20",
+      int: "16",
+      luk: "16",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "40",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "4",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "7",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "21",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "210",
+      max_mp: "0",
+      attack_power: "1",
+      magic_power: "0",
+      armor: "21",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "10",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "25",
+      dex: "25",
+      int: "0",
+      luk: "0",
+      max_hp: "130",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "152",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "하의",
+    item_equipment_slot: "하의",
+    item_name: "트릭스터 워리어팬츠",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPEJGIE.png",
+    item_description: null,
+    item_shape_name: "트릭스터 워리어팬츠",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPEJGIE.png",
+    item_gender: null,
+    item_total_option: {
+      str: "91",
+      dex: "74",
+      int: "60",
+      luk: "16",
+      max_hp: "365",
+      max_mp: "0",
+      attack_power: "3",
+      magic_power: "0",
+      armor: "403",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "5",
+      all_stat: "5",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "30",
+      dex: "30",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "0",
+      armor: "210",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "5",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 150,
+    },
+    potential_option_grade: "에픽",
+    additional_potential_option_grade: null,
+    potential_option_1: "STR : +6%",
+    potential_option_2: "STR : +3%",
+    potential_option_3: "INT : +3%",
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "12",
+      dex: "16",
+      int: "60",
+      luk: "16",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "5",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "7",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "21",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "210",
+      max_mp: "0",
+      attack_power: "1",
+      magic_power: "0",
+      armor: "21",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "11",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "28",
+      dex: "28",
+      int: "0",
+      luk: "0",
+      max_hp: "155",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "172",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "망토",
+    item_equipment_slot: "망토",
+    item_name: "블랙 케이프",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCJAHI.png",
+    item_description: null,
+    item_shape_name: "블랙 케이프",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOCJAHI.png",
+    item_gender: null,
+    item_total_option: {
+      str: "16",
+      dex: "7",
+      int: "7",
+      luk: "16",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "10",
+      magic_power: "10",
+      armor: "180",
+      speed: "12",
+      jump: "5",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "7",
+      dex: "7",
+      int: "7",
+      luk: "7",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "7",
+      magic_power: "7",
+      armor: "180",
+      speed: "9",
+      jump: "5",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 100,
+    },
+    potential_option_grade: "레어",
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "9",
+      dex: "0",
+      int: "0",
+      luk: "9",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "3",
+      magic_power: "3",
+      armor: "0",
+      speed: "3",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "7",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "장갑",
+    item_equipment_slot: "장갑",
+    item_name: "오리할콘 미셀",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJEIA.png",
+    item_description: null,
+    item_shape_name: "오리할콘 미셀",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPKJEIA.png",
+    item_gender: null,
+    item_total_option: {
+      str: "14",
+      dex: "10",
+      int: "2",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "0",
+      armor: "18",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "2",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "13",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 30,
+    },
+    potential_option_grade: "레어",
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "2",
+      dex: "0",
+      int: "2",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "2",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "3",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "5",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "10",
+      dex: "10",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "5",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "신발",
+    item_equipment_slot: "신발",
+    item_name: "펜살리르 배틀부츠",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJOIG.png",
+    item_description: null,
+    item_shape_name: "펜살리르 배틀부츠",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPFJOIG.png",
+    item_gender: null,
+    item_total_option: {
+      str: "15",
+      dex: "9",
+      int: "8",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "1",
+      magic_power: "0",
+      armor: "120",
+      speed: "5",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "4",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "15",
+      dex: "9",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "1",
+      magic_power: "0",
+      armor: "120",
+      speed: "5",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 140,
+    },
+    potential_option_grade: "레어",
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "0",
+      int: "8",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "4",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "6",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "반지",
+    item_equipment_slot: "반지1",
+    item_name: "이터널 플레임 링",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODPEMF.png",
+    item_description: "꺼지지 않는 불꽃의 힘이 깃든 특별한 반지이다.",
+    item_shape_name: "이터널 플레임 링",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEODPEMF.png",
+    item_gender: null,
+    item_total_option: {
+      str: "40",
+      dex: "40",
+      int: "40",
+      luk: "40",
+      max_hp: "4000",
+      max_mp: "4000",
+      attack_power: "25",
+      magic_power: "25",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "40",
+      dex: "40",
+      int: "40",
+      luk: "40",
+      max_hp: "4000",
+      max_mp: "4000",
+      attack_power: "25",
+      magic_power: "25",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 120,
+    },
+    potential_option_grade: "유니크",
+    additional_potential_option_grade: null,
+    potential_option_1: "INT : +9%",
+    potential_option_2: "DEX : +6%",
+    potential_option_3: "DEX : +6%",
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "펜던트",
+    item_equipment_slot: "펜던트",
+    item_name: "10주년 화이트 펜던트",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOAJFLC.png",
+    item_description: null,
+    item_shape_name: "10주년 화이트 펜던트",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOAJFLC.png",
+    item_gender: null,
+    item_total_option: {
+      str: "8",
+      dex: "9",
+      int: "8",
+      luk: "9",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "100",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "8",
+      dex: "8",
+      int: "8",
+      luk: "8",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "100",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 30,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "1",
+      int: "0",
+      luk: "1",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "5",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "얼굴장식",
+    item_equipment_slot: "얼굴장식",
+    item_name: "10주년 화이트 치클",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJEJG.png",
+    item_description: null,
+    item_shape_name: "10주년 화이트 치클",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPDJEJG.png",
+    item_gender: null,
+    item_total_option: {
+      str: "9",
+      dex: "5",
+      int: "5",
+      luk: "5",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "10",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "5",
+      dex: "5",
+      int: "5",
+      luk: "5",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "10",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 30,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "4",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "5",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "귀고리",
+    item_equipment_slot: "귀고리",
+    item_name: "데아 시두스 이어링",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPBJFKA.png",
+    item_description: null,
+    item_shape_name: "데아 시두스 이어링",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEPBJFKA.png",
+    item_gender: null,
+    item_total_option: {
+      str: "59",
+      dex: "5",
+      int: "17",
+      luk: "5",
+      max_hp: "2340",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "2",
+      armor: "50",
+      speed: "0",
+      jump: "4",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "5",
+      dex: "5",
+      int: "5",
+      luk: "5",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "2",
+      armor: "50",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 130,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "54",
+      dex: "0",
+      int: "12",
+      luk: "0",
+      max_hp: "2340",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "4",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "6",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "벨트",
+    item_equipment_slot: "벨트",
+    item_name: "골든 클로버 벨트",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOBJFJD.png",
+    item_description: null,
+    item_shape_name: "골든 클로버 벨트",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOBJFJD.png",
+    item_gender: null,
+    item_total_option: {
+      str: "47",
+      dex: "63",
+      int: "35",
+      luk: "35",
+      max_hp: "150",
+      max_mp: "150",
+      attack_power: "1",
+      magic_power: "1",
+      armor: "150",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "4",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "15",
+      dex: "15",
+      int: "15",
+      luk: "15",
+      max_hp: "150",
+      max_mp: "150",
+      attack_power: "1",
+      magic_power: "1",
+      armor: "150",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 140,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "32",
+      dex: "48",
+      int: "20",
+      luk: "20",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "4",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "10",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "3",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "훈장",
+    item_equipment_slot: "훈장",
+    item_name: "프리토의 친구",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOGJOOI.png",
+    item_description:
+      "조금은 부족하지만 정감가는 현상금 사냥꾼 프리토의 친구가 되었다.",
+    item_shape_name: "프리토의 친구",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOGJOOI.png",
+    item_gender: null,
+    item_total_option: {
+      str: "10",
+      dex: "10",
+      int: "10",
+      luk: "10",
+      max_hp: "500",
+      max_mp: "500",
+      attack_power: "3",
+      magic_power: "3",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "10",
+      dex: "10",
+      int: "10",
+      luk: "10",
+      max_hp: "500",
+      max_mp: "500",
+      attack_power: "3",
+      magic_power: "3",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 0,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "튜너",
+    item_equipment_slot: "무기",
+    item_name: "앱솔랩스 튜너",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KENDIHMJ.png",
+    item_description: null,
+    item_shape_name: "앱솔랩스 튜너",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KENDIHMJ.png",
+    item_gender: null,
+    item_total_option: {
+      str: "178",
+      dex: "126",
+      int: "20",
+      luk: "65",
+      max_hp: "255",
+      max_mp: "255",
+      attack_power: "357",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "30",
+      ignore_monster_armor: "10",
+      all_stat: "4",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "60",
+      dex: "60",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "205",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "30",
+      ignore_monster_armor: "10",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 160,
+    },
+    potential_option_grade: "유니크",
+    additional_potential_option_grade: null,
+    potential_option_1: "데미지 : +9%",
+    potential_option_2: "보스 몬스터 공격 시 데미지 : +35%",
+    potential_option_3: "크리티컬 확률 : +10%",
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "36",
+      dex: "0",
+      int: "20",
+      luk: "65",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "4",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "8",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "16",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "40",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "17",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "66",
+      dex: "66",
+      int: "0",
+      luk: "0",
+      max_hp: "255",
+      max_mp: "255",
+      attack_power: "112",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "브레이슬릿",
+    item_equipment_slot: "보조무기",
+    item_name: "블랙 샤이니 브레이슬릿",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEMHPHOF.png",
+    item_description: null,
+    item_shape_name: "블랙 샤이니 브레이슬릿",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEMHPHOF.png",
+    item_gender: null,
+    item_total_option: {
+      str: "8",
+      dex: "8",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "5",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "8",
+      dex: "8",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "5",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 100,
+    },
+    potential_option_grade: null,
+    additional_potential_option_grade: null,
+    potential_option_1: null,
+    potential_option_2: null,
+    potential_option_3: null,
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+  {
+    item_equipment_part: "엠블렘",
+    item_equipment_slot: "엠블렘",
+    item_name: "골드 나이트 엠블렘",
+    item_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOLLCLD.png",
+    item_description: null,
+    item_shape_name: "골드 나이트 엠블렘",
+    item_shape_icon:
+      "https://open.api.nexon.com/static/maplestory/ItemIcon/KEOLLCLD.png",
+    item_gender: null,
+    item_total_option: {
+      str: "10",
+      dex: "10",
+      int: "10",
+      luk: "10",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "2",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      damage: "0",
+      equipment_level_decrease: 0,
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+    },
+    item_base_option: {
+      str: "10",
+      dex: "10",
+      int: "10",
+      luk: "10",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "2",
+      magic_power: "2",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      ignore_monster_armor: "0",
+      all_stat: "0",
+      max_hp_rate: "0",
+      max_mp_rate: "0",
+      base_equipment_level: 100,
+    },
+    potential_option_grade: "에픽",
+    additional_potential_option_grade: null,
+    potential_option_1: "공격력 : +6%",
+    potential_option_2: "공격 시 3% 확률로 28의 MP 회복",
+    potential_option_3: "공격 시 3% 확률로 28의 HP 회복",
+    additional_potential_option_1: null,
+    additional_potential_option_2: null,
+    additional_potential_option_3: null,
+    equipment_level_increase: 0,
+    item_exceptional_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+    },
+    item_add_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+      boss_damage: "0",
+      damage: "0",
+      all_stat: "0",
+      equipment_level_decrease: 0,
+    },
+    growth_exp: 0,
+    growth_level: 0,
+    scroll_upgrade: "0",
+    cuttable_count: "255",
+    golden_hammer_flag: "미적용",
+    scroll_resilience_count: "0",
+    scroll_upgradeable_count: "0",
+    soul_name: null,
+    soul_option: null,
+    item_etc_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    starforce: "0",
+    starforce_scroll_flag: "미사용",
+    item_starforce_option: {
+      str: "0",
+      dex: "0",
+      int: "0",
+      luk: "0",
+      max_hp: "0",
+      max_mp: "0",
+      attack_power: "0",
+      magic_power: "0",
+      armor: "0",
+      speed: "0",
+      jump: "0",
+    },
+    special_ring_level: 0,
+    date_expire: null,
+  },
+];

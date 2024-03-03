@@ -1,18 +1,22 @@
+@import "./unionRaider.css";
+@import "./bg-Artifact.css";
+@import "./symbolBar.css";
+@import "./skill.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .bg-image {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.9)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
     url("/image/bg.webp");
-  background-position: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-size: cover;
 }
 .bg-loading-image {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.4),
+      rgba(0, 0, 0, 0.2),
       rgba(255, 255, 255, 0.9)
     ),
     url("/image/loading.webp");
@@ -20,15 +24,30 @@
   background-size: cover;
 }
 
+.bg-notFound-image {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("/image/notf.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 body {
   box-sizing: border-box;
 }
+
 body::-webkit-scrollbar {
   width: 5px;
 }
 body::-webkit-scrollbar-thumb {
   background-color: gray;
   border-radius: 5px;
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 3px;
 }
 
 .loader {
@@ -50,18 +69,11 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(360deg);
   }
 }
-.Vmatrix div:nth-child(n + 5) {
-  margin-top: -10px;
+
+.textShadow {
+  text-shadow: 1px 1px 0px black;
 }
 
-.Vmatrix div:nth-child(5) {
-  margin-left: 32.5px;
-}
-
-.Vmatrix div:nth-child(7n) {
-  margin-right: 32.5px;
-}
-
-.Vmatrix div:nth-child(7n + 5) {
-  margin-left: 32.5px;
+.textShadowNone {
+  text-shadow: none;
 }

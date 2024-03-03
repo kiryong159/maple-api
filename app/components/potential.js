@@ -79,7 +79,7 @@ export default function Potential({ potentialData }) {
       ) : (
         <div>
           <div className="border-b border-gray-300 px-2"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col py-3 px-3">
             <span className="text-red-600">익셉셔널</span>
             <span>올스텟 : +20</span>
             <span>최대 HP / 최대 MP : +1000</span>

@@ -1,0 +1,93 @@
+.bg_artifact-1 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/주황버섯.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg_artifact-2 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/슬라임.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg_artifact-3 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/뿔버섯.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg_artifact-4 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/스텀프.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg_artifact-5 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/스톤골렘.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg_artifact-6 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/발록.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg_artifact-7 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/자쿰.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg_artifact-8 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/핑크빈.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg_artifact-9 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/image/artifact/파풀라투스.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

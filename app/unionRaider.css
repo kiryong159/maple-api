@@ -1,0 +1,254 @@
+.unionRaider div:nth-child(1) {
+  border-top-left-radius: 30%;
+}
+.unionRaider div:nth-child(22) {
+  border-top-right-radius: 30%;
+}
+.unionRaider div:nth-child(440) {
+  border-bottom-right-radius: 30%;
+}
+.unionRaider div:nth-child(419) {
+  border-bottom-left-radius: 30%;
+}
+
+.unionRaider div:nth-child(127),
+.unionRaider div:nth-child(116) {
+  /* 왼 오 위 */
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left-color: black;
+  border-right-color: black;
+  border-top-color: black;
+}
+.unionRaider div:nth-child(314),
+.unionRaider div:nth-child(325) {
+  /* 왼 오 아래 */
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+}
+.unionRaider div:nth-child(117),
+.unionRaider div:nth-child(315),
+.unionRaider div:nth-child(211) {
+  /* 왼 위 아래 */
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-left-color: black;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+.unionRaider div:nth-child(126),
+.unionRaider div:nth-child(324) {
+  /* 오 위 아래 */
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right-color: black;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+.unionRaider div:nth-child(204),
+.unionRaider div:nth-child(209),
+.unionRaider div:nth-child(210),
+.unionRaider div:nth-child(233),
+.unionRaider div:nth-child(256),
+.unionRaider div:nth-child(279),
+.unionRaider div:nth-child(2),
+.unionRaider div:nth-child(25),
+.unionRaider div:nth-child(48),
+.unionRaider div:nth-child(71),
+.unionRaider div:nth-child(348),
+.unionRaider div:nth-child(371),
+.unionRaider div:nth-child(394),
+.unionRaider div:nth-child(417),
+.unionRaider div:nth-child(440) {
+  /* 왼 아래 */
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-left-color: black;
+  border-bottom-color: black;
+}
+.unionRaider div:nth-child(169),
+.unionRaider div:nth-child(190),
+.unionRaider div:nth-child(294),
+.unionRaider div:nth-child(273),
+.unionRaider div:nth-child(252),
+.unionRaider div:nth-child(106),
+.unionRaider div:nth-child(85),
+.unionRaider div:nth-child(64),
+.unionRaider div:nth-child(43),
+.unionRaider div:nth-child(22),
+.unionRaider div:nth-child(357),
+.unionRaider div:nth-child(378),
+.unionRaider div:nth-child(399),
+.unionRaider div:nth-child(420) {
+  /* 왼 위 */
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-left-color: black;
+  border-top-color: black;
+}
+.unionRaider div:nth-child(208) {
+  /* 위 아래 */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+
+.unionRaider div:nth-child(125),
+.unionRaider div:nth-child(124),
+.unionRaider div:nth-child(123),
+.unionRaider div:nth-child(122),
+.unionRaider div:nth-child(121),
+.unionRaider div:nth-child(120),
+.unionRaider div:nth-child(119),
+.unionRaider div:nth-child(118),
+.unionRaider div:nth-child(162),
+.unionRaider div:nth-child(185) {
+  border-top: 1px solid;
+  border-top-color: black;
+}
+
+.unionRaider div:nth-child(138),
+.unionRaider div:nth-child(160),
+.unionRaider div:nth-child(182),
+.unionRaider div:nth-child(248),
+.unionRaider div:nth-child(270),
+.unionRaider div:nth-child(292),
+.unionRaider div:nth-child(326),
+.unionRaider div:nth-child(128),
+.unionRaider div:nth-child(150),
+.unionRaider div:nth-child(172),
+.unionRaider div:nth-child(194),
+.unionRaider div:nth-child(260),
+.unionRaider div:nth-child(282),
+.unionRaider div:nth-child(304),
+.unionRaider div:nth-child(326),
+.unionRaider div:nth-child(140),
+.unionRaider div:nth-child(148),
+.unionRaider div:nth-child(163),
+.unionRaider div:nth-child(186),
+.unionRaider div:nth-child(122),
+.unionRaider div:nth-child(144),
+.unionRaider div:nth-child(166),
+.unionRaider div:nth-child(188),
+.unionRaider div:nth-child(231),
+.unionRaider div:nth-child(232),
+.unionRaider div:nth-child(302),
+.unionRaider div:nth-child(216),
+.unionRaider div:nth-child(238),
+.unionRaider div:nth-child(100),
+.unionRaider div:nth-child(78),
+.unionRaider div:nth-child(56),
+.unionRaider div:nth-child(34),
+.unionRaider div:nth-child(12),
+.unionRaider div:nth-child(254),
+.unionRaider div:nth-child(276),
+.unionRaider div:nth-child(298),
+.unionRaider div:nth-child(320),
+.unionRaider div:nth-child(342),
+.unionRaider div:nth-child(364),
+.unionRaider div:nth-child(386),
+.unionRaider div:nth-child(408),
+.unionRaider div:nth-child(430),
+.unionRaider div:nth-child(226),
+.unionRaider div:nth-child(94),
+.unionRaider div:nth-child(336) {
+  border-left: 1px solid;
+  border-left-color: black;
+}
+.unionRaider div:nth-child(316),
+.unionRaider div:nth-child(317),
+.unionRaider div:nth-child(318),
+.unionRaider div:nth-child(319),
+.unionRaider div:nth-child(320),
+.unionRaider div:nth-child(321),
+.unionRaider div:nth-child(322),
+.unionRaider div:nth-child(323),
+.unionRaider div:nth-child(205),
+.unionRaider div:nth-child(206),
+.unionRaider div:nth-child(207),
+.unionRaider div:nth-child(212),
+.unionRaider div:nth-child(213),
+.unionRaider div:nth-child(214),
+.unionRaider div:nth-child(215),
+.unionRaider div:nth-child(216),
+.unionRaider div:nth-child(217),
+.unionRaider div:nth-child(218),
+.unionRaider div:nth-child(219),
+.unionRaider div:nth-child(220),
+.unionRaider div:nth-child(203),
+.unionRaider div:nth-child(202),
+.unionRaider div:nth-child(201),
+.unionRaider div:nth-child(200),
+.unionRaider div:nth-child(199) {
+  border-bottom: 1px solid;
+  border-bottom-color: black;
+}
+
+/* 테두리 */
+.unionRaider div:nth-child(22n) {
+  border-right: 1px solid;
+  border-right-color: black;
+}
+
+.unionRaider div:nth-child(22n + 1) {
+  border-left: 1px solid;
+  border-left-color: black;
+}
+.unionRaider div:nth-child(1),
+.unionRaider div:nth-child(2),
+.unionRaider div:nth-child(3),
+.unionRaider div:nth-child(4),
+.unionRaider div:nth-child(5),
+.unionRaider div:nth-child(6),
+.unionRaider div:nth-child(7),
+.unionRaider div:nth-child(8),
+.unionRaider div:nth-child(9),
+.unionRaider div:nth-child(10),
+.unionRaider div:nth-child(11),
+.unionRaider div:nth-child(12),
+.unionRaider div:nth-child(13),
+.unionRaider div:nth-child(14),
+.unionRaider div:nth-child(15),
+.unionRaider div:nth-child(16),
+.unionRaider div:nth-child(17),
+.unionRaider div:nth-child(18),
+.unionRaider div:nth-child(19),
+.unionRaider div:nth-child(20),
+.unionRaider div:nth-child(21),
+.unionRaider div:nth-child(22) {
+  border-top: 1px solid;
+  border-top-color: black;
+}
+
+.unionRaider div:nth-child(419),
+.unionRaider div:nth-child(420),
+.unionRaider div:nth-child(421),
+.unionRaider div:nth-child(422),
+.unionRaider div:nth-child(423),
+.unionRaider div:nth-child(424),
+.unionRaider div:nth-child(425),
+.unionRaider div:nth-child(426),
+.unionRaider div:nth-child(427),
+.unionRaider div:nth-child(428),
+.unionRaider div:nth-child(429),
+.unionRaider div:nth-child(430),
+.unionRaider div:nth-child(431),
+.unionRaider div:nth-child(432),
+.unionRaider div:nth-child(433),
+.unionRaider div:nth-child(434),
+.unionRaider div:nth-child(435),
+.unionRaider div:nth-child(436),
+.unionRaider div:nth-child(437),
+.unionRaider div:nth-child(438),
+.unionRaider div:nth-child(439) {
+  border-bottom: 1px solid;
+  border-bottom-color: black;
+}

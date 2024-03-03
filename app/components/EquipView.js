@@ -2,9 +2,9 @@ import EquipStat from "./EquipStat";
 import Potential from "./potential";
 import ItemDescription from "./itemDescription";
 
-export default function EquipView({ equipPresetData }) {
+export default function EquipView({ equipPresetData, darkTheme }) {
   return (
-    <div>
+    <div className={`${darkTheme ? "textShadow" : ""}`}>
       {/* 아이템 이름 및 사진 */}
       <div className="flex flex-col items-center py-3 space-y-1">
         {equipPresetData.starforce === "0" ? (
@@ -16,7 +16,7 @@ export default function EquipView({ equipPresetData }) {
               fill="yellow"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
-              stroke="currentColor"
+              stroke="black"
               className="w-6 h-6"
             >
               <path
