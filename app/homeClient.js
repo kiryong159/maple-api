@@ -281,11 +281,11 @@ export default function HomeClient({ Apikey }) {
           >
             <input
               {...register("Name", { required: "캐릭터 이름을 입력해주세요" })}
-              className="px-2 py-1 rounded-md shadow-md text-black"
+              className="px-2 py-1 rounded-md shadow-md text-black w-[75%]"
               placeholder="캐릭터 이름을 입력해주세요"
               type="text"
             />
-            <button className="shadow-md border-[1px] border-black  rounded-md px-2 py-1">
+            <button className="shadow-md border-[1px] w-[20%] border-black  rounded-md px-2 py-1">
               검색
             </button>
           </form>

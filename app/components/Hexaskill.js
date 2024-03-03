@@ -84,7 +84,7 @@ export default function HexaSkill({ Hdata, Hstat, darkTheme }) {
                   className="absolute top-[16px] left-[20px] "
                 >
                   <img className=" " src={item.skill_icon} />
-                  <span className="bg-gray-500 text-[9px] text-white p-[2px] px-2 font-bold rounded-md relative left-[2px] top-[-12px]">
+                  <span className="bg-gray-500 text-[9px] text-white p-[2px] px-2 font-bold rounded-md relative left-[2.5px] top-[-12px]">
                     {String(item.skill_level).padStart(2, "0")}
                   </span>
                 </div>

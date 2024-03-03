@@ -32,7 +32,7 @@ export default function Vmatrix({ VData, darkTheme }) {
         5차 스킬
       </h1>
       <div
-        className={`w-[full] flex flex-wrap   gap-[6px] p-1 3sm:pl-7 md:pl-7 lg:pl-1 py-[10px] rounded-md shadow-md ${
+        className={`w-[full] flex flex-wrap   gap-[2px] p-1 3sm:pl-7 md:pl-7 lg:pl-1 py-[10px] rounded-md shadow-md ${
           width !== undefined && width < 1024
             ? width < 768
               ? "Vmatrix"
@@ -45,7 +45,7 @@ export default function Vmatrix({ VData, darkTheme }) {
             <div className={`relative `} key={item.skill_name}>
               {item.skill_description.slice(10, 12) === "25" ? (
                 <svg
-                  width={70}
+                  width={72}
                   height={70}
                   className="relative "
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Vmatrix({ VData, darkTheme }) {
                 </svg>
               ) : (
                 <svg
-                  width={70}
+                  width={72}
                   height={70}
                   className="relative"
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function Vmatrix({ VData, darkTheme }) {
                 className="absolute top-[16px] left-[20px] "
               >
                 <img className=" " src={item.skill_icon} />
-                <span className="bg-gray-500 text-[9px] text-white p-[2px] px-2 font-bold rounded-md relative left-[2px] top-[-12px]">
+                <span className="bg-gray-500 text-[9px] text-white p-[2px] px-2 font-bold rounded-md relative left-[2.5px] top-[-12px]">
                   {String(item.skill_level).padStart(2, "0")}
                 </span>
               </div>

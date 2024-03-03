@@ -1,5 +1,5 @@
 .Vmatrix div:nth-child(n + 5) {
-  margin-top: -15px;
+  margin-top: -10px;
 }
 
 .Vmatrix div:nth-child(5) {
@@ -18,7 +18,7 @@
   margin-left: 38px;
 }
 .VmatrixLg div:nth-child(n + 14) {
-  margin-top: -15px;
+  margin-top: -10px;
 }
 .VmatrixLg div:nth-child(25n + 14) {
   margin-left: 38px;
@@ -28,7 +28,7 @@
   margin-left: 38px;
 }
 .VmatrixMd div:nth-child(n + 10) {
-  margin-top: -15px;
+  margin-top: -10px;
 }
 .VmatrixMd div:nth-child(17n + 10) {
   margin-left: 38px;
