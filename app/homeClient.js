@@ -63,9 +63,13 @@ export default function HomeClient({ Apikey }) {
   const date = new Date();
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
-  const days = date.getDate() - 1;
+  const hours = date.getHours();
+  let days;
+  days = hours === 0 || hours === 1 ? date.getDate() - 2 : date.getDate() - 1;
+
   const prevLastDate = new Date(year, month - 1, 0);
   const prevLastDay = prevLastDate.getDate();
+  /* API가 00~01시에는 전날 데이터가 없음 그래서 hour 값에 따라 -2일 부여해주고 days가 0 과 -1 일때 상황을 처리해줌 */
   const combineDay =
     days === 0
       ? month === 1
@@ -75,11 +79,18 @@ export default function HomeClient({ Apikey }) {
         : `${year}-${String(month - 1).padStart(2, "0")}-${String(
             prevLastDay
           ).padStart(2, "0")}`
+      : days < 0
+      ? month === 1
+        ? `${year - 1}-${String(month + 11).padStart(2, "0")}-${String(
+            prevLastDay - 1
+          ).padStart(2, "0")}`
+        : `${year}-${String(month - 1).padStart(2, "0")}-${String(
+            prevLastDay - 1
+          ).padStart(2, "0")}`
       : `${year}-${String(month).padStart(2, "0")}-${String(days).padStart(
           2,
           "0"
         )}`;
-
   const combineDayM1 = DayCalc(year, month, date.getDate() - 2, prevLastDay);
   const combineDayM2 = DayCalc(year, month, date.getDate() - 3, prevLastDay);
   const combineDayM3 = DayCalc(year, month, date.getDate() - 4, prevLastDay);
