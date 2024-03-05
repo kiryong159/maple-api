@@ -2,7 +2,7 @@
 import fetchData from "@/pages/api/fetchData";
 import getocid from "@/pages/api/ocid";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useRecoilState } from "recoil";
 import { DarkThemeAtom, EquipAtom } from "./atom";
@@ -28,6 +28,13 @@ import Artifact from "./components/Artifact";
 import Petcomponents from "./components/PetComponent";
 
 export default function HomeClient({ Apikey }) {
+  const [rankingNworld, setRankingNworld] = useState([]);
+  const [rankingRworld, setRankingRworld] = useState([]);
+  const [unionRanking, setUnionRanking] = useState([]);
+  const [guildRanking, setGuildRanking] = useState([]);
+  const [mDojangRanking, setMDojangRanking] = useState([]);
+  const [seedRanking, setSeedRanking] = useState([]);
+
   const [baseData, setBaseData] = useState({});
   const [popData, setPopData] = useState({});
   const [statData, setStatData] = useState({});
@@ -54,7 +61,7 @@ export default function HomeClient({ Apikey }) {
   const [nav, setNav] = useState("장비");
   const [hyperOn, setHyperOn] = useState(false);
   const [hyperPreset, setHyperPreset] = useState(1);
-  const { register, handleSubmit, formState, reset } = useForm();
+  const { register, handleSubmit, formState, reset, setValue } = useForm();
   const [equipNumAtom, setEquipNumAtom] = useRecoilState(EquipAtom);
   const [darkThemeAtom, setDarkThemeAtom] = useRecoilState(DarkThemeAtom);
   const [loading, setLoading] = useState(false);
@@ -275,15 +282,118 @@ export default function HomeClient({ Apikey }) {
     setHyperOn(false);
     setEquipNumAtom(null);
   };
+
+  useEffect(() => {
+    async function fetchRankingNworld() {
+      await fetchData("overall", Apikey, 0, combineDay, 8)
+        .then((r) => r.json())
+        .then((r) => setRankingNworld(r.ranking.slice(0, 3)));
+    }
+    async function fetchRankingRworld() {
+      await fetchData("overall", Apikey, 0, combineDay, 9)
+        .then((r) => r.json())
+        .then((r) => setRankingRworld(r.ranking.slice(0, 3)));
+    }
+    async function fetchUnionRanking() {
+      await fetchData("union", Apikey, 0, combineDay, 10)
+        .then((r) => r.json())
+        .then((r) => setUnionRanking(r.ranking.slice(0, 5)));
+    }
+    async function fetchGuildRanking() {
+      await fetchData("guild", Apikey, 0, combineDay, 11)
+        .then((r) => r.json())
+        .then((r) => setGuildRanking(r.ranking.slice(0, 5)));
+    }
+    async function mDojangRanking() {
+      await fetchData("dojang", Apikey, 0, combineDay, 12)
+        .then((r) => r.json())
+        .then((r) => setMDojangRanking(r.ranking.slice(0, 3)));
+    }
+    async function seedRanking() {
+      await fetchData("theseed", Apikey, 0, combineDay, 10)
+        .then((r) => r.json())
+        .then((r) => setSeedRanking(r.ranking.slice(0, 3)));
+    }
+    fetchGuildRanking();
+    fetchRankingRworld();
+    fetchRankingNworld();
+    fetchUnionRanking();
+    mDojangRanking();
+    seedRanking();
+  }, []);
+
   return (
     <body
       className={
         darkThemeAtom ? "bg-gray-500 text-gray-50" : "bg-white text-black"
       }
     >
+      {/* 리셋버튼 / 테마 버튼 */}
+      <div
+        className={`fixed top-0 left-0 z-20 py-1 h-[40px] w-full ml-0 mr-0 ${
+          darkThemeAtom ? "bg-gray-500" : "bg-white"
+        }`}
+      >
+        <div className="flex justify-center items-center w-full space-x-5">
+          {searchForm === true ? null : (
+            <button className="" onClick={resetBtn}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-8 h-8"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+            </button>
+          )}
+
+          {darkThemeAtom === false ? (
+            <button onClick={() => setDarkThemeAtom(true)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#74b9ff"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-8 h-8"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+                />
+              </svg>
+            </button>
+          ) : (
+            <button onClick={() => setDarkThemeAtom(false)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#feca57"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-8 h-8"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+                />
+              </svg>
+            </button>
+          )}
+        </div>
+      </div>
       {searchForm === true ? (
-        <div className="bg-image w-[315px] h-[450px] 3sm:w-[370px] md:w-[760px] lg:w-[1019px] lg:h-[700px] flex flex-col mx-auto p-5">
-          <h1 className="mx-auto mt-[70px] font-bold text-[30px]">
+        <div className="bg-image w-[315px] h-full mt-[40px] 3sm:w-[370px] md:w-[760px] lg:w-[1019px] lg:h-full flex flex-col mx-auto p-2">
+          <h1 className="mx-auto mt-[30px]  font-bold text-[30px]">
             메이플 캐릭터 검색
           </h1>
           <form
@@ -296,7 +406,10 @@ export default function HomeClient({ Apikey }) {
               placeholder="캐릭터 이름을 입력해주세요"
               type="text"
             />
-            <button className="shadow-md border-[1px] w-[20%] border-black  rounded-md px-2 py-1">
+            <button
+              id="submitBTN"
+              className="shadow-md border-[1px] w-[20%] border-black  rounded-md px-2 py-1"
+            >
               검색
             </button>
           </form>
@@ -305,23 +418,323 @@ export default function HomeClient({ Apikey }) {
               {formState.errors.Name.message}
             </div>
           ) : null}
-          {baseData.error ? (
-            <div className="p-3">
-              <p className="text-red-500 font-bold mt-[10px] text-[20px]">
-                정보를 불러올수 없습니다.{" "}
-              </p>
-              <ul className="px-2 text-[15px]">
-                <li>1. 없는 캐릭터</li>
-                <li>2. 대소문자 구분 필요</li>
-                <li className="whitespace-pre">
-                  3. 23년 12월 21일 이후 접속 캐릭터가 아님.
-                </li>
-              </ul>
-            </div>
-          ) : null}
+          <div
+            className={`grid grid-cols-1 p-2 mt-5 md:grid-cols-2 lg:grid-cols-3 gap-5 ${
+              darkThemeAtom ? "textShadow" : ""
+            }`}
+          >
+            {/* 일반월드 랭킹 */}
+            {rankingNworld.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">일반 월드 랭킹</h1>
+
+                {rankingNworld.map((item) => {
+                  return (
+                    <div
+                      key={`${item.character_level} + ${item.character_exp}`}
+                    >
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="w-[5%]">{item.ranking}.</span>
+                        <div className="flex w-[50%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <span
+                            onClick={() => {
+                              setValue("Name", item.character_name);
+                              const submit =
+                                document.getElementById("submitBTN");
+                              submit.click();
+                            }}
+                            className={`w-full hover:cursor-pointer`}
+                          >
+                            {item.character_name}
+                          </span>
+                        </div>
+
+                        <div className="flex flex-col w-[45%]">
+                          <span className="whitespace-pre">
+                            Lv.{item.character_level}{" "}
+                          </span>
+                          <span>
+                            {item.sub_class_name === ""
+                              ? item.class_name
+                              : item.sub_class_name}{" "}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+            {/* 리부트 랭킹 */}
+            {rankingRworld.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">리부트 월드 랭킹</h1>
+
+                {rankingRworld.map((item) => {
+                  return (
+                    <div
+                      key={`${item.character_level} + ${item.character_exp}`}
+                    >
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="w-[5%]">{item.ranking}.</span>
+                        <div className="flex w-[50%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <span
+                            onClick={() => {
+                              setValue("Name", item.character_name);
+                              const submit =
+                                document.getElementById("submitBTN");
+                              submit.click();
+                            }}
+                            className={`w-full hover:cursor-pointer`}
+                          >
+                            {item.character_name}
+                          </span>
+                        </div>
+
+                        <div className="flex flex-col w-[45%]">
+                          <span className="whitespace-pre">
+                            Lv.{item.character_level}{" "}
+                          </span>
+                          <span>
+                            {item.sub_class_name === ""
+                              ? item.class_name
+                              : item.sub_class_name}{" "}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+            {/* 유니온 랭킹 */}
+            {unionRanking.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">유니온 랭킹</h1>
+
+                {unionRanking.map((item) => {
+                  return (
+                    <div key={`${item.union_level} + ${item.union_power}`}>
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="justify-center w-[5%]">
+                          {item.ranking}.
+                        </span>
+                        <div className="flex w-[50%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <span
+                            onClick={() => {
+                              setValue("Name", item.character_name);
+                              const submit =
+                                document.getElementById("submitBTN");
+                              submit.click();
+                            }}
+                            className={`w-full hover:cursor-pointer`}
+                          >
+                            {item.character_name}
+                          </span>
+                        </div>
+
+                        <div className="flex w-[45%]">
+                          <span className="whitespace-pre">
+                            Lv.{item.union_level}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+            {/* 지하수로 랭킹 */}
+            {guildRanking.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">길드(지하수로) 랭킹</h1>
+
+                {guildRanking.map((item) => {
+                  return (
+                    <div
+                      key={`${item.guild_point} + ${item.guild_master_name}`}
+                    >
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="justify-center w-[5%]">
+                          {item.ranking}.
+                        </span>
+                        <div className="flex w-[45%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <span className={`w-full`}>{item.guild_name}</span>
+                        </div>
+
+                        <div className="flex w-[50%]">
+                          <span className="whitespace-pre">
+                            {powerChanger(String(item.guild_point))}점
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+            {/* 무릉 랭킹 */}
+            {mDojangRanking.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">무릉도장 랭킹</h1>
+
+                {mDojangRanking.map((item) => {
+                  return (
+                    <div key={`${item.character_name}`}>
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="w-[5%]">{item.ranking}.</span>
+                        <div className="flex items-center w-[50%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px] h-[24px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <div className="flex flex-col">
+                            <span
+                              onClick={() => {
+                                setValue("Name", item.character_name);
+                                const submit =
+                                  document.getElementById("submitBTN");
+                                submit.click();
+                              }}
+                              className={`w-full hover:cursor-pointer`}
+                            >
+                              {item.character_name}
+                            </span>
+                            <div>
+                              <span>{item.dojang_floor}층</span>
+                              <span className="text-[14px]">
+                                ({Math.floor(item.dojang_time_record / 60)}분
+                                {item.dojang_time_record % 60})
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex flex-col w-[45%]">
+                          <span className="whitespace-pre">
+                            Lv.{item.character_level}{" "}
+                          </span>
+                          <span>
+                            {item.sub_class_name === ""
+                              ? item.class_name
+                              : item.sub_class_name}{" "}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+            {/* 시드 랭킹 */}
+            {seedRanking.length !== 0 ? (
+              <div
+                className={`flex flex-col p-1 rounded-md shadow-md ${
+                  darkThemeAtom ? "bg-gray-700" : "bg-blue-50"
+                }`}
+              >
+                <h1 className="text-center">시드 랭킹</h1>
+
+                {seedRanking.map((item) => {
+                  return (
+                    <div key={`${item.character_name}`}>
+                      <div className="border-b border-gray-300 px-2 mt-1"></div>
+                      <div className="flex items-center py-1 px-1">
+                        <span className="w-[5%]">{item.ranking}.</span>
+                        <div className="flex items-center w-[50%] space-x-1 ml-2">
+                          <img
+                            width={15}
+                            className="p-[1px] h-[24px]"
+                            src={`/image/server/${item.world_name}.webp`}
+                          />
+                          <div className="flex flex-col">
+                            <span
+                              onClick={() => {
+                                setValue("Name", item.character_name);
+                                const submit =
+                                  document.getElementById("submitBTN");
+                                submit.click();
+                              }}
+                              className={`w-full hover:cursor-pointer`}
+                            >
+                              {item.character_name}
+                            </span>
+                            <div>
+                              <span>{item.theseed_floor}층</span>
+                              <span className="text-[14px]">
+                                ({Math.floor(item.theseed_time_record / 60)}분
+                                {item.theseed_time_record % 60})
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex flex-col w-[45%]">
+                          <span className="whitespace-pre">
+                            Lv.{item.character_level}{" "}
+                          </span>
+                          <span>
+                            {item.sub_class_name === ""
+                              ? item.class_name
+                              : item.sub_class_name}{" "}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : null}
+          </div>
         </div>
       ) : loading ? (
-        <div className="bg-loading-image text-black w-[315px] 3sm:w-[370px] md:w-[760px] md:h-[450px] lg:w-[1019px] lg:h-[500px] flex flex-col items-center mx-auto mt-[50px] py-10">
+        <div className="bg-loading-image mt-[40px] text-black w-[315px] 3sm:w-[370px] md:w-[760px] md:h-[450px] lg:w-[1019px] lg:h-[500px] flex flex-col items-center mx-auto  py-10">
           <span className="loader mx-auto my-auto"></span>
           <span className="relative bottom-[60px] md:bottom-[170px] lg:bottom-[200px] ">
             Loading...
@@ -332,7 +745,7 @@ export default function HomeClient({ Apikey }) {
           </span>
         </div>
       ) : baseData.error ? (
-        <div className="bg-notFound-image w-[315px] 3sm:w-[370px] md:w-[760px] lg:w-[1019px] mt-[50px] py-10 mx-auto p-3 rounded-md flex flex-col items-center">
+        <div className="bg-notFound-image h-full w-[315px] 3sm:w-[370px] md:w-[760px] lg:w-[1019px] mt-[40px] py-10 mx-auto p-3 rounded-md flex flex-col items-center">
           <p className="text-red-500 font-bold mt-[100px] text-[20px] lg:text-[30px]">
             정보를 불러올수 없습니다.{" "}
           </p>
@@ -371,66 +784,6 @@ export default function HomeClient({ Apikey }) {
             darkThemeAtom ? "bg-gray-500" : "bg-white"
           }`}
         >
-          {/* 리셋버튼 / 테마 버튼 */}
-          <div
-            className={`fixed top-0 left-0 z-20 py-1 h-[40px] w-full ml-0 mr-0 ${
-              darkThemeAtom ? "bg-gray-500" : "bg-white"
-            }`}
-          >
-            <div className="flex justify-center items-center w-full space-x-5">
-              <button className="" onClick={resetBtn}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-8 h-8"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                  />
-                </svg>
-              </button>
-              {darkThemeAtom === false ? (
-                <button onClick={() => setDarkThemeAtom(true)}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="#74b9ff"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-8 h-8"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
-                    />
-                  </svg>
-                </button>
-              ) : (
-                <button onClick={() => setDarkThemeAtom(false)}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="#feca57"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-8 h-8"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
-                    />
-                  </svg>
-                </button>
-              )}
-            </div>
-          </div>
           {/* 기본정보 */}
           <div
             className={`w-[315px] md:w-[400px] p-3 mt-[40px] shadow-md rounded-md mx-auto flex space-x-5 ${
